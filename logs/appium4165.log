@@ -1,0 +1,859 @@
+2023-03-28 08:33:47:983 [Appium] Welcome to Appium v1.22.3
+2023-03-28 08:33:47:986 [Appium] Non-default server args:
+2023-03-28 08:33:47:987 [Appium]   port: 4165
+2023-03-28 08:33:47:987 [Appium]   logFile: E:\learning\python\pycharm\project\mobile_frame/logs/appium4165.log
+2023-03-28 08:33:47:988 [Appium]   chromedriverPort: 6071
+2023-03-28 08:33:47:989 [Appium] Deprecated server args:
+2023-03-28 08:33:47:989 [Appium]   --chromedriver-port => --default-capabilities
+2023-03-28 08:33:47:991 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2023-03-28 08:33:47:992 [Appium]   chromedriverPort: 6071
+2023-03-28 08:33:48:055 [Appium] Appium REST http interface listener started on 0.0.0.0:4165
+2023-03-28 08:33:48:207 [HTTP] Request idempotency key: b722cbe6-04ce-43e7-8cbe-a99265ab5ec0
+2023-03-28 08:33:48:254 [HTTP] --> POST /wd/hub/session
+2023-03-28 08:33:48:254 [HTTP] {"capabilities":{"firstMatch":[{"platformName":"android","appium:deviceName":"xxx","appium:udid":"127.0.0.1:62025","appium:app":"E:\\\\packages\\\\tools\\\\apk\\\\douban_7.0.apk","appium:noSign":true,"appium:unicodeKeyboard":true,"appium:resetKeyboard":true,"appium:newCommandTimeout":600,"appium:autoGrantPermissions":true,"appium:systemPort":5640}]},"desiredCapabilities":{"platformName":"android","deviceName":"xxx","udid":"127.0.0.1:62025","app":"E:\\\\packages\\\\tools\\\\apk\\\\douban_7.0.apk","noSign":true,"unicodeKeyboard":true,"resetKeyboard":true,"newCommandTimeout":600,"autoGrantPermissions":true,"systemPort":5640}}
+2023-03-28 08:33:48:257 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"android","deviceName":"xxx","udid":"127.0.0.1:62025","app":"E:\\\\packages\\\\tools\\\\apk\\\\douban_7.0.apk","noSign":true,"unicodeKeyboard":true,"resetKeyboard":true,"newCommandTimeout":600,"autoGrantPermissions":true,"systemPort":5640},null,{"firstMatch":[{"platformName":"android","appium:deviceName":"xxx","appium:udid":"127.0.0.1:62025","appium:app":"E:\\\\packages\\\\tools\\\\apk\\\\douban_7.0.apk","appium:noSign":true,"appium:unicodeKeyboard":true,"appium:resetKeyboard":true,"appium:newCommandTimeout":600,"appium:autoGrantPermissions":true,"appium:systemPort":5640}]}]
+2023-03-28 08:33:48:264 [BaseDriver] Event 'newSessionRequested' logged at 1679992428258 (16:33:48 GMT+0800 (中国标准时间))
+2023-03-28 08:33:48:268 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2023-03-28 08:33:48:269 [BaseDriver]   chromedriverPort
+2023-03-28 08:33:48:275 [Appium] 
+
+2023-03-28 08:33:48:275 [Appium] ======================================================================
+
+2023-03-28 08:33:48:275 [Appium]   DEPRECATION WARNING:
+
+2023-03-28 08:33:48:276 [Appium] 
+
+2023-03-28 08:33:48:276 [Appium]   The 'automationName' capability was not provided in the desired 
+2023-03-28 08:33:48:276 [Appium]   capabilities for this Android session
+
+2023-03-28 08:33:48:277 [Appium] 
+
+2023-03-28 08:33:48:277 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2023-03-28 08:33:48:277 [Appium]   UiAutomator2 Driver
+
+2023-03-28 08:33:48:277 [Appium] 
+
+2023-03-28 08:33:48:278 [Appium]   The next major version of Appium (2.x) will **require** the 
+2023-03-28 08:33:48:278 [Appium]   'automationName' capability to be set for all sessions on all 
+2023-03-28 08:33:48:278 [Appium]   platforms
+
+2023-03-28 08:33:48:278 [Appium] 
+
+2023-03-28 08:33:48:279 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2023-03-28 08:33:48:279 [Appium]   'automationName=UiAutomator1'
+
+2023-03-28 08:33:48:279 [Appium] 
+
+2023-03-28 08:33:48:279 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2023-03-28 08:33:48:279 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+
+2023-03-28 08:33:48:279 [Appium] 
+
+2023-03-28 08:33:48:280 [Appium]   For more information about drivers, please visit 
+2023-03-28 08:33:48:280 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2023-03-28 08:33:48:280 [Appium]   'Drivers' menu
+
+2023-03-28 08:33:48:280 [Appium] 
+
+2023-03-28 08:33:48:280 [Appium] ======================================================================
+
+2023-03-28 08:33:48:280 [Appium] 
+2023-03-28 08:33:48:981 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2023-03-28 08:33:48:989 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2023-03-28 08:33:48:989 [BaseDriver] Creating session with W3C capabilities: {
+2023-03-28 08:33:48:990 [BaseDriver]   "alwaysMatch": {
+2023-03-28 08:33:48:990 [BaseDriver]     "platformName": "android",
+2023-03-28 08:33:48:990 [BaseDriver]     "appium:chromedriverPort": 6071,
+2023-03-28 08:33:48:990 [BaseDriver]     "appium:deviceName": "xxx",
+2023-03-28 08:33:48:990 [BaseDriver]     "appium:udid": "127.0.0.1:62025",
+2023-03-28 08:33:48:991 [BaseDriver]     "appium:app": "E:\\\\packages\\\\tools\\\\apk\\\\douban_7.0.apk",
+2023-03-28 08:33:48:991 [BaseDriver]     "appium:noSign": true,
+2023-03-28 08:33:48:991 [BaseDriver]     "appium:unicodeKeyboard": true,
+2023-03-28 08:33:48:993 [BaseDriver]     "appium:resetKeyboard": true,
+2023-03-28 08:33:48:994 [BaseDriver]     "appium:newCommandTimeout": 600,
+2023-03-28 08:33:48:994 [BaseDriver]     "appium:autoGrantPermissions": true,
+2023-03-28 08:33:48:995 [BaseDriver]     "appium:systemPort": 5640
+2023-03-28 08:33:48:995 [BaseDriver]   },
+2023-03-28 08:33:48:996 [BaseDriver]   "firstMatch": [
+2023-03-28 08:33:48:996 [BaseDriver]     {}
+2023-03-28 08:33:48:997 [BaseDriver]   ]
+2023-03-28 08:33:48:997 [BaseDriver] }
+2023-03-28 08:33:49:014 [BaseDriver] Session created with session id: 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:33:49:023 [BaseDriver] Using local app 'E:\\packages\\tools\\apk\\douban_7.0.apk'
+2023-03-28 08:33:49:023 [UiAutomator2] Checking whether app is actually present
+2023-03-28 08:33:49:038 [ADB] Found 1 'build-tools' folders under 'E:\program\android_sdk' (newest first):
+2023-03-28 08:33:49:038 [ADB]     E:/program/android_sdk/build-tools/28.0.3
+2023-03-28 08:33:49:038 [ADB] Using 'adb.exe' from 'E:\program\android_sdk\platform-tools\adb.exe'
+2023-03-28 08:33:49:040 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 start-server'
+2023-03-28 08:33:49:156 [AndroidDriver] Retrieving device list
+2023-03-28 08:33:49:156 [ADB] Trying to find a connected android device
+2023-03-28 08:33:49:159 [ADB] Getting connected devices
+2023-03-28 08:33:49:239 [ADB] Connected devices: [{"udid":"127.0.0.1:62001","state":"device"},{"udid":"127.0.0.1:62025","state":"device"}]
+2023-03-28 08:33:49:240 [AndroidDriver] Using device: 127.0.0.1:62025
+2023-03-28 08:33:49:242 [ADB] Using 'adb.exe' from 'E:\program\android_sdk\platform-tools\adb.exe'
+2023-03-28 08:33:49:243 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 start-server'
+2023-03-28 08:33:49:321 [ADB] Setting device id to 127.0.0.1:62025
+2023-03-28 08:33:49:322 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell getprop ro.build.version.sdk'
+2023-03-28 08:33:49:420 [ADB] Current device property 'ro.build.version.sdk': 22
+2023-03-28 08:33:49:420 [ADB] Device API level: 22
+2023-03-28 08:33:49:421 [AndroidDriver] Parsing package and activity from app manifest
+2023-03-28 08:33:49:501 [ADB] Package name: 'com.douban.frodo'
+2023-03-28 08:33:49:501 [ADB] Main activity name: 'com.douban.frodo.activity.SplashActivity'
+2023-03-28 08:33:49:501 [AndroidDriver] Parsed package and activity are: com.douban.frodo/com.douban.frodo.activity.SplashActivity
+2023-03-28 08:33:49:502 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 wait-for-device'
+2023-03-28 08:33:49:586 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell echo ping'
+2023-03-28 08:33:50:140 [AndroidDriver] Pushing settings apk to device...
+2023-03-28 08:33:50:141 [ADB] Getting install status for io.appium.settings
+2023-03-28 08:33:50:141 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell dumpsys package io.appium.settings'
+2023-03-28 08:33:50:241 [ADB] 'io.appium.settings' is not installed
+2023-03-28 08:33:50:241 [ADB] App 'C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk' is not installed
+2023-03-28 08:33:50:241 [ADB] Installing 'C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2023-03-28 08:33:50:242 [ADB] Skipping permissions grant option, since the current API level 22 does not support applications permissions customization
+2023-03-28 08:33:50:243 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 help'
+2023-03-28 08:33:50:757 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell 'ls -t -1 /data/local/tmp/appium_cache 2>&1 || echo _ERROR_''
+2023-03-28 08:33:50:827 [ADB] The current Android API does not support extended ls options. Defaulting to no-options call
+2023-03-28 08:33:50:828 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell 'ls /data/local/tmp/appium_cache 2>&1 || echo _ERROR_''
+2023-03-28 08:33:50:896 [ADB] Got an error '/data/local/tmp/appium_cache: No such file or directory' while getting the list of files in the cache. Assuming the cache does not exist yet
+2023-03-28 08:33:50:896 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell mkdir -p /data/local/tmp/appium_cache'
+2023-03-28 08:33:50:970 [ADB] The count of applications in the cache: 0
+2023-03-28 08:33:50:970 [ADB] Caching the application at 'C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk' to '/data/local/tmp/appium_cache/7c30ec5f0f993ec5accfb84873e85dc5147fdf0c.apk'
+2023-03-28 08:33:50:971 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell mkdir -p /data/local/tmp/appium_cache'
+2023-03-28 08:33:51:052 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 push C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk /data/local/tmp/appium_cache/7c30ec5f0f993ec5accfb84873e85dc5147fdf0c.apk'
+2023-03-28 08:33:51:493 [ADB] The upload of 'settings_apk-debug.apk' (1.18 MB) took 522ms
+2023-03-28 08:33:51:494 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell pm install /data/local/tmp/appium_cache/7c30ec5f0f993ec5accfb84873e85dc5147fdf0c.apk'
+2023-03-28 08:33:52:416 [ADB] The installation of 'settings_apk-debug.apk' took 923ms
+2023-03-28 08:33:52:417 [ADB] Install command stdout: pkg: /data/local/tmp/appium_cache/7c30ec5f0f993ec5accfb84873e85dc5147fdf0c.apk
+
+
+2023-03-28 08:33:52:417 [ADB] Success
+2023-03-28 08:33:52:418 [ADB] Getting IDs of all 'io.appium.settings' processes
+2023-03-28 08:33:52:419 [ADB] Using ps-based PID detection
+2023-03-28 08:33:52:419 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell ps --help'
+2023-03-28 08:33:52:673 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell ps'
+2023-03-28 08:33:52:825 [AndroidDriver] Granting permissions SET_ANIMATION_SCALE,CHANGE_CONFIGURATION,ACCESS_FINE_LOCATION to 'io.appium.settings'
+2023-03-28 08:33:52:826 [ADB] Granting permissions ["android.permission.SET_ANIMATION_SCALE","android.permission.CHANGE_CONFIGURATION","android.permission.ACCESS_FINE_LOCATION"] to 'io.appium.settings'
+2023-03-28 08:33:52:827 [ADB] Got the following command chunks to execute: [["pm","grant","io.appium.settings","android.permission.SET_ANIMATION_SCALE",";","pm","grant","io.appium.settings","android.permission.CHANGE_CONFIGURATION",";","pm","grant","io.appium.settings","android.permission.ACCESS_FINE_LOCATION",";"]]
+2023-03-28 08:33:52:827 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell pm grant io.appium.settings android.permission.SET_ANIMATION_SCALE ; pm grant io.appium.settings android.permission.CHANGE_CONFIGURATION ; pm grant io.appium.settings android.permission.ACCESS_FINE_LOCATION ;'
+2023-03-28 08:33:55:103 [ADB] Getting IDs of all 'io.appium.settings' processes
+2023-03-28 08:33:55:104 [ADB] Using ps-based PID detection
+2023-03-28 08:33:55:104 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell ps'
+2023-03-28 08:33:55:166 [ADB] Starting Appium Settings app
+2023-03-28 08:33:55:168 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell am start -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER'
+2023-03-28 08:33:56:141 [ADB] Getting IDs of all 'io.appium.settings' processes
+2023-03-28 08:33:56:141 [ADB] Using ps-based PID detection
+2023-03-28 08:33:56:142 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell ps'
+2023-03-28 08:33:56:284 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell settings put secure mock_location 1'
+2023-03-28 08:33:57:357 [Logcat] Starting logs capture with command: E:\\program\\android_sdk\\platform-tools\\adb.exe -P 5037 -s 127.0.0.1\:62025 logcat -v threadtime
+2023-03-28 08:33:57:481 [AndroidDriver] Enabling Unicode keyboard support
+2023-03-28 08:33:57:481 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell settings get secure default_input_method'
+2023-03-28 08:33:58:805 [AndroidDriver] Unsetting previous IME com.android.inputservice/.InputService
+2023-03-28 08:33:58:805 [AndroidDriver] Setting IME to 'io.appium.settings/.UnicodeIME'
+2023-03-28 08:33:58:805 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell ime enable io.appium.settings/.UnicodeIME'
+2023-03-28 08:33:59:745 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell ime set io.appium.settings/.UnicodeIME'
+2023-03-28 08:34:00:624 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 5640
+2023-03-28 08:34:00:630 [ADB] Forwarding system: 5640 to device: 6790
+2023-03-28 08:34:00:630 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 forward tcp:5640 tcp:6790'
+2023-03-28 08:34:00:704 [ADB] Getting install status for io.appium.uiautomator2.server
+2023-03-28 08:34:00:705 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell dumpsys package io.appium.uiautomator2.server'
+2023-03-28 08:34:00:770 [ADB] 'io.appium.uiautomator2.server' is not installed
+2023-03-28 08:34:00:770 [ADB] App 'C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is not installed
+2023-03-28 08:34:00:770 [UiAutomator2] io.appium.uiautomator2.server installation state: notInstalled
+2023-03-28 08:34:00:771 [ADB] Checking app cert for C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk
+2023-03-28 08:34:00:814 [ADB] Using 'apksigner.jar' from 'E:\program\android_sdk\build-tools\28.0.3\lib\apksigner.jar'
+2023-03-28 08:34:00:815 [ADB] Starting apksigner: E:\\java\\jdk\\bin\\java.exe -Xmx1024M -Xss1m -jar E:\\program\\android_sdk\\build-tools\\28.0.3\\lib\\apksigner.jar verify --print-certs C:\\Users\\ChenHuaishu\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.27.0.apk
+2023-03-28 08:34:02:628 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+
+2023-03-28 08:34:02:628 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+
+2023-03-28 08:34:02:628 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+
+2023-03-28 08:34:02:629 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+
+2023-03-28 08:34:02:629 [ADB] 
+2023-03-28 08:34:02:629 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.27.0.apk'
+2023-03-28 08:34:02:630 [ADB] 'C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+2023-03-28 08:34:02:630 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2023-03-28 08:34:02:630 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell dumpsys package io.appium.uiautomator2.server.test'
+2023-03-28 08:34:02:700 [ADB] 'io.appium.uiautomator2.server.test' is not installed
+2023-03-28 08:34:02:700 [ADB] Checking app cert for C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2023-03-28 08:34:02:705 [ADB] Starting apksigner: E:\\java\\jdk\\bin\\java.exe -Xmx1024M -Xss1m -jar E:\\program\\android_sdk\\build-tools\\28.0.3\\lib\\apksigner.jar verify --print-certs C:\\Users\\ChenHuaishu\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+2023-03-28 08:34:03:532 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+
+2023-03-28 08:34:03:532 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+
+2023-03-28 08:34:03:532 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+
+2023-03-28 08:34:03:533 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+
+2023-03-28 08:34:03:533 [ADB] 
+2023-03-28 08:34:03:533 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2023-03-28 08:34:03:534 [ADB] 'C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2023-03-28 08:34:03:534 [UiAutomator2] Server packages are going to be (re)installed
+2023-03-28 08:34:03:535 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 version'
+2023-03-28 08:34:03:645 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell 'ls /data/local/tmp/appium_cache 2>&1 || echo _ERROR_''
+2023-03-28 08:34:03:738 [ADB] The count of applications in the cache: 1
+2023-03-28 08:34:03:739 [ADB] Caching the application at 'C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' to '/data/local/tmp/appium_cache/927b5f79e12d5ecef3816f17f4dd88c0462287a0.apk'
+2023-03-28 08:34:03:739 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell mkdir -p /data/local/tmp/appium_cache'
+2023-03-28 08:34:03:807 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 push C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk /data/local/tmp/appium_cache/927b5f79e12d5ecef3816f17f4dd88c0462287a0.apk'
+2023-03-28 08:34:06:560 [ADB] The upload of 'appium-uiautomator2-server-v4.27.0.apk' (7.87 MB) took 2821ms
+2023-03-28 08:34:06:561 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell pm install -r /data/local/tmp/appium_cache/927b5f79e12d5ecef3816f17f4dd88c0462287a0.apk'
+2023-03-28 08:34:07:861 [ADB] The installation of 'appium-uiautomator2-server-v4.27.0.apk' took 1300ms
+2023-03-28 08:34:07:861 [ADB] Install command stdout: pkg: /data/local/tmp/appium_cache/927b5f79e12d5ecef3816f17f4dd88c0462287a0.apk
+
+
+2023-03-28 08:34:07:862 [ADB] Success
+2023-03-28 08:34:07:866 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell 'ls /data/local/tmp/appium_cache 2>&1 || echo _ERROR_''
+2023-03-28 08:34:08:071 [ADB] The count of applications in the cache: 2
+2023-03-28 08:34:08:071 [ADB] Caching the application at 'C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' to '/data/local/tmp/appium_cache/e690089fcf4a1b7397fa52ea882ba7fbdc651340.apk'
+2023-03-28 08:34:08:072 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell mkdir -p /data/local/tmp/appium_cache'
+2023-03-28 08:34:08:157 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 push C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk /data/local/tmp/appium_cache/e690089fcf4a1b7397fa52ea882ba7fbdc651340.apk'
+2023-03-28 08:34:08:646 [ADB] The upload of 'appium-uiautomator2-server-debug-androidTest.apk' (720.56 KB) took 574ms
+2023-03-28 08:34:08:647 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell pm install -r /data/local/tmp/appium_cache/e690089fcf4a1b7397fa52ea882ba7fbdc651340.apk'
+2023-03-28 08:34:09:558 [ADB] The installation of 'appium-uiautomator2-server-debug-androidTest.apk' took 911ms
+2023-03-28 08:34:09:558 [ADB] Install command stdout: pkg: /data/local/tmp/appium_cache/e690089fcf4a1b7397fa52ea882ba7fbdc651340.apk
+
+
+2023-03-28 08:34:09:558 [ADB] Success
+2023-03-28 08:34:09:564 [UiAutomator2] Waiting up to 30000ms for services to be available
+2023-03-28 08:34:09:565 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell pm list instrumentation'
+2023-03-28 08:34:10:295 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2023-03-28 08:34:10:296 [ADB] Getting install status for com.douban.frodo
+2023-03-28 08:34:10:296 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell dumpsys package com.douban.frodo'
+2023-03-28 08:34:10:373 [ADB] 'com.douban.frodo' is not installed
+2023-03-28 08:34:10:373 [ADB] App 'E:\\packages\\tools\\apk\\douban_7.0.apk' is not installed
+2023-03-28 08:34:10:373 [ADB] Installing 'E:\\packages\\tools\\apk\\douban_7.0.apk'
+2023-03-28 08:34:10:374 [ADB] Skipping permissions grant option, since the current API level 22 does not support applications permissions customization
+2023-03-28 08:34:10:959 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell 'ls /data/local/tmp/appium_cache 2>&1 || echo _ERROR_''
+2023-03-28 08:34:11:065 [ADB] The count of applications in the cache: 3
+2023-03-28 08:34:11:065 [ADB] Caching the application at 'E:\\packages\\tools\\apk\\douban_7.0.apk' to '/data/local/tmp/appium_cache/c3ce4519b0a69782317f5db3c046d318e185f52e.apk'
+2023-03-28 08:34:11:065 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell mkdir -p /data/local/tmp/appium_cache'
+2023-03-28 08:34:11:132 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 push E:\\packages\\tools\\apk\\douban_7.0.apk /data/local/tmp/appium_cache/c3ce4519b0a69782317f5db3c046d318e185f52e.apk'
+2023-03-28 08:34:39:502 [ADB] The upload of 'douban_7.0.apk' (70.56 MB) took 28437ms
+2023-03-28 08:34:39:505 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell pm install /data/local/tmp/appium_cache/c3ce4519b0a69782317f5db3c046d318e185f52e.apk'
+2023-03-28 08:34:42:099 [ADB] The installation of 'douban_7.0.apk' took 2593ms
+2023-03-28 08:34:42:100 [ADB] Install command stdout: pkg: /data/local/tmp/appium_cache/c3ce4519b0a69782317f5db3c046d318e185f52e.apk
+
+
+2023-03-28 08:34:42:100 [ADB] Success
+2023-03-28 08:34:42:101 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2023-03-28 08:34:42:130 [UiAutomator2] No obsolete sessions have been detected (read ECONNRESET)
+2023-03-28 08:34:42:130 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell am force-stop io.appium.uiautomator2.server.test'
+2023-03-28 08:34:43:185 [UiAutomator2] Starting UIAutomator2 server 4.27.0
+2023-03-28 08:34:43:185 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2023-03-28 08:34:43:185 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2023-03-28 08:34:43:185 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62025","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2023-03-28 08:34:43:201 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-03-28 08:34:43:203 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:5640/wd/hub/status] with no body
+2023-03-28 08:34:43:207 [WD Proxy] Error: read ECONNRESET
+2023-03-28 08:34:43:207 [WD Proxy]     at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+2023-03-28 08:34:44:209 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-03-28 08:34:44:210 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:5640/wd/hub/status] with no body
+2023-03-28 08:34:44:213 [WD Proxy] Error: read ECONNRESET
+2023-03-28 08:34:44:213 [WD Proxy]     at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+2023-03-28 08:34:44:498 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2023-03-28 08:34:45:214 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-03-28 08:34:45:214 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:5640/wd/hub/status] with no body
+2023-03-28 08:34:45:219 [WD Proxy] Error: read ECONNRESET
+2023-03-28 08:34:45:219 [WD Proxy]     at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+2023-03-28 08:34:46:222 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-03-28 08:34:46:223 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:5640/wd/hub/status] with no body
+2023-03-28 08:34:46:325 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2023-03-28 08:34:46:327 [UiAutomator2] The initialization of the instrumentation process took 3141ms
+2023-03-28 08:34:46:327 [WD Proxy] Matched '/session' to command name 'createSession'
+2023-03-28 08:34:46:328 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:5640/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromedriverPort":6071,"deviceName":"xxx","udid":"127.0.0.1:62025","app":"E:\\\\packages\\\\tools\\\\apk\\\\douban_7.0.apk","noSign":true,"unicodeKeyboard":true,"resetKeyboard":true,"newCommandTimeout":600,"autoGrantPermissions":true,"systemPort":5640},"platformName":"android","chromedriverPort":6071,"deviceName":"127.0.0.1:62025","udid":"127.0.0.1:62025","app":"E:\\\\packages\\\\tools\\\\apk\\\\douban_7.0.apk","noSign":true,"unicodeKeyboard":true,"resetKeyboard":true,"newCommandTimeout":600,"autoGrantPermissions":true,"systemPort":5640,"deviceUDID":"127.0.0.1:62025","appPackage":"com.douban.frodo"}],"alwaysMatch":{}}}
+2023-03-28 08:34:46:362 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromedriverPort":6071,"deviceName":"xxx","udid":"127.0.0.1:62025","app":"E:\\\\packages\\\\tools\\\\apk\\\\douban_7.0.apk","noSign":true,"unicodeKeyboard":true,"resetKeyboard":true,"newCommandTimeout":600,"autoGrantPermissions":true,"systemPort":5640},"platformName":"android","chromedriverPort":6071,"deviceName":"127.0.0.1:62025","udid":"127.0.0.1:62025","app":"E:\\\\packages\\\\tools\\\\apk\\\\douban_7.0.apk","noSign":true,"unicodeKeyboard":true,"resetKeyboard":true,"newCommandTimeout":600,"autoGrantPermissions":true,"systemPort":5640,"deviceUDID":"127.0.0.1:62025","appPackage":"com.douban.frodo"}],"alwaysMatch":{}},"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1"}}
+2023-03-28 08:34:46:363 [WD Proxy] Determined the downstream protocol as 'W3C'
+2023-03-28 08:34:46:383 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/appium/device/info] with no body
+2023-03-28 08:34:46:408 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"androidId":"1f25f449b19ff378","apiVersion":"22","bluetooth":{"state":"OFF"},"brand":"samsung","carrierName":"CHINA MOBILE","displayDensity":320,"locale":"zh_CN","manufacturer":"samsung","model":"SM-N960F","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":1048576,"linkUpstreamBandwidthKbps":1048576,"networkCapabilities":"NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_INTERNET,NET_CAPABILITY_TRUSTED","signalStrength":null,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"\"WiredSSID\"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":0,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"5.1.1","realDisplaySize":"900x1600","timeZone":"Asia/Shanghai"}}
+2023-03-28 08:34:46:408 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell dumpsys window'
+2023-03-28 08:34:46:484 [AndroidDriver] Screen already unlocked, doing nothing
+2023-03-28 08:34:46:484 [UiAutomator2] Starting 'com.douban.frodo/com.douban.frodo.activity.SplashActivity and waiting for 'com.douban.frodo/com.douban.frodo.activity.SplashActivity'
+2023-03-28 08:34:46:485 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell am start -W -n com.douban.frodo/com.douban.frodo.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2023-03-28 08:34:50:962 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.douban.frodo' and activity: 'com.douban.frodo.activity.SplashActivity' to be focused
+2023-03-28 08:34:50:962 [ADB] Possible activities, to be checked: 'com.douban.frodo.activity.SplashActivity', 'com.douban.frodo.com.douban.frodo.activity.SplashActivity'
+2023-03-28 08:34:50:963 [ADB] Getting focused package and activity
+2023-03-28 08:34:50:964 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell dumpsys window windows'
+2023-03-28 08:34:51:069 [ADB] Found package: 'com.douban.frodo' and fully qualified activity name : 'com.douban.frodo.activity.SplashActivity'
+2023-03-28 08:34:51:071 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/appium/device/pixel_ratio] with no body
+2023-03-28 08:34:51:080 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":2}
+2023-03-28 08:34:51:081 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2023-03-28 08:34:51:082 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/appium/device/system_bars] with no body
+2023-03-28 08:34:51:092 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"statusBar":50}}
+2023-03-28 08:34:51:093 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2023-03-28 08:34:51:094 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/window/current/size] with no body
+2023-03-28 08:34:51:102 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"height":1600,"width":900}}
+2023-03-28 08:34:51:104 [Appium] New AndroidUiautomator2Driver session created successfully, session 39792712-a522-431d-9f4c-d03246ca11a8 added to master session list
+2023-03-28 08:34:51:104 [BaseDriver] Event 'newSessionStarted' logged at 1679992491104 (16:34:51 GMT+0800 (中国标准时间))
+2023-03-28 08:34:51:105 [W3C (39792712)] Cached the protocol value 'W3C' for the new session 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:34:51:106 [W3C (39792712)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromedriverPort":6071,"deviceName":"xxx","udid":"127.0.0.1:62025","app":"E:\\\\packages\\\\tools\\\\apk\\\\douban_7.0.apk","noSign":true,"unicodeKeyboard":true,"resetKeyboard":true,"newCommandTimeout":600,"autoGrantPermissions":true,"systemPort":5640},"platformName":"android","chromedriverPort":6071,"deviceName":"127.0.0.1:62025","udid":"127.0.0.1:62025","app":"E:\\\\packages\\\\tools\\\\apk\\\\douban_7.0.apk","noSign":true,"unicodeKeyboard":true,"resetKeyboard":true,"newCommandTimeout":600,"autoGrantPermissions":true,"systemPort":5640,"deviceUDID":"127.0.0.1:62025","appPackage":"com.douban.frodo","deviceApiLevel":22,"platformVersion":"5.1.1","deviceScreenSize":"900x1600","deviceScreenDensity":320,"deviceModel":"SM-N960F","deviceManufacturer":"samsung","pixelRat...
+2023-03-28 08:34:51:111 [HTTP] <-- POST /wd/hub/session 200 62855 ms - 1169
+2023-03-28 08:34:51:111 [HTTP] 
+2023-03-28 08:34:51:120 [HTTP] --> POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/timeouts
+2023-03-28 08:34:51:120 [HTTP] {"implicit":30000}
+2023-03-28 08:34:51:124 [W3C (39792712)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,30000,"39792712-a522-431d-9f4c-d03246ca11a8"]
+2023-03-28 08:34:51:125 [BaseDriver] W3C timeout argument: {"implicit":30000}}
+2023-03-28 08:34:51:125 [BaseDriver] Set implicit wait to 30000ms
+2023-03-28 08:34:51:126 [W3C (39792712)] Responding to client with driver.timeouts() result: null
+2023-03-28 08:34:51:127 [HTTP] <-- POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/timeouts 200 7 ms - 14
+2023-03-28 08:34:51:127 [HTTP] 
+2023-03-28 08:34:51:139 [HTTP] --> POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element
+2023-03-28 08:34:51:139 [HTTP] {"using":"-android uiautomator","value":"text(\"同意\")"}
+2023-03-28 08:34:51:143 [W3C (39792712)] Calling AppiumDriver.findElement() with args: ["-android uiautomator","text(\"同意\")","39792712-a522-431d-9f4c-d03246ca11a8"]
+2023-03-28 08:34:51:144 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2023-03-28 08:34:51:144 [BaseDriver] Waiting up to 30000 ms for condition
+2023-03-28 08:34:51:145 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-03-28 08:34:51:145 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element] with body: {"strategy":"-android uiautomator","selector":"text(\"同意\")","context":"","multiple":false}
+2023-03-28 08:34:51:285 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"ELEMENT":"00000000-0000-0005-7fff-ffff00000005","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0005-7fff-ffff00000005"}}
+2023-03-28 08:34:51:285 [W3C (39792712)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0005-7fff-ffff00000005","ELEMENT":"00000000-0000-0005-7fff-ffff00000005"}
+2023-03-28 08:34:51:286 [HTTP] <-- POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element 200 147 ms - 137
+2023-03-28 08:34:51:287 [HTTP] 
+2023-03-28 08:34:51:289 [HTTP] --> POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element/00000000-0000-0005-7fff-ffff00000005/click
+2023-03-28 08:34:51:290 [HTTP] {"id":"00000000-0000-0005-7fff-ffff00000005"}
+2023-03-28 08:34:51:296 [W3C (39792712)] Calling AppiumDriver.click() with args: ["00000000-0000-0005-7fff-ffff00000005","39792712-a522-431d-9f4c-d03246ca11a8"]
+2023-03-28 08:34:51:297 [WD Proxy] Matched '/element/00000000-0000-0005-7fff-ffff00000005/click' to command name 'click'
+2023-03-28 08:34:51:298 [WD Proxy] Proxying [POST /element/00000000-0000-0005-7fff-ffff00000005/click] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element/00000000-0000-0005-7fff-ffff00000005/click] with body: {"element":"00000000-0000-0005-7fff-ffff00000005"}
+2023-03-28 08:34:51:328 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":null}
+2023-03-28 08:34:51:329 [W3C (39792712)] Responding to client with driver.click() result: null
+2023-03-28 08:34:51:330 [HTTP] <-- POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element/00000000-0000-0005-7fff-ffff00000005/click 200 40 ms - 14
+2023-03-28 08:34:51:330 [HTTP] 
+2023-03-28 08:34:51:334 [HTTP] --> POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element
+2023-03-28 08:34:51:335 [HTTP] {"using":"-android uiautomator","value":"text(\"进入首页\")"}
+2023-03-28 08:34:51:336 [W3C (39792712)] Calling AppiumDriver.findElement() with args: ["-android uiautomator","text(\"进入首页\")","39792712-a522-431d-9f4c-d03246ca11a8"]
+2023-03-28 08:34:51:336 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2023-03-28 08:34:51:337 [BaseDriver] Waiting up to 30000 ms for condition
+2023-03-28 08:34:51:338 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-03-28 08:34:51:338 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element] with body: {"strategy":"-android uiautomator","selector":"text(\"进入首页\")","context":"","multiple":false}
+2023-03-28 08:34:55:789 [WD Proxy] Got response with status 404: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2023-03-28 08:34:55:790 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2023-03-28 08:34:55:790 [BaseDriver] Waited for 4453 ms so far
+2023-03-28 08:34:56:291 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-03-28 08:34:56:291 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element] with body: {"strategy":"-android uiautomator","selector":"text(\"进入首页\")","context":"","multiple":false}
+2023-03-28 08:34:57:311 [WD Proxy] Got response with status 404: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2023-03-28 08:34:57:311 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2023-03-28 08:34:57:311 [BaseDriver] Waited for 5974 ms so far
+2023-03-28 08:34:57:812 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-03-28 08:34:57:813 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element] with body: {"strategy":"-android uiautomator","selector":"text(\"进入首页\")","context":"","multiple":false}
+2023-03-28 08:34:57:829 [WD Proxy] Got response with status 404: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2023-03-28 08:34:57:830 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2023-03-28 08:34:57:832 [BaseDriver] Waited for 6494 ms so far
+2023-03-28 08:34:58:332 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-03-28 08:34:58:333 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element] with body: {"strategy":"-android uiautomator","selector":"text(\"进入首页\")","context":"","multiple":false}
+2023-03-28 08:34:58:348 [WD Proxy] Got response with status 404: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2023-03-28 08:34:58:348 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2023-03-28 08:34:58:349 [BaseDriver] Waited for 7011 ms so far
+2023-03-28 08:34:58:850 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-03-28 08:34:58:850 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element] with body: {"strategy":"-android uiautomator","selector":"text(\"进入首页\")","context":"","multiple":false}
+2023-03-28 08:34:58:870 [WD Proxy] Got response with status 404: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2023-03-28 08:34:58:870 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2023-03-28 08:34:58:871 [BaseDriver] Waited for 7534 ms so far
+2023-03-28 08:34:59:371 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-03-28 08:34:59:371 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element] with body: {"strategy":"-android uiautomator","selector":"text(\"进入首页\")","context":"","multiple":false}
+2023-03-28 08:34:59:388 [WD Proxy] Got response with status 404: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2023-03-28 08:34:59:389 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2023-03-28 08:34:59:389 [BaseDriver] Waited for 8052 ms so far
+2023-03-28 08:34:59:893 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-03-28 08:34:59:893 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element] with body: {"strategy":"-android uiautomator","selector":"text(\"进入首页\")","context":"","multiple":false}
+2023-03-28 08:34:59:911 [WD Proxy] Got response with status 404: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2023-03-28 08:34:59:911 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2023-03-28 08:34:59:911 [BaseDriver] Waited for 8574 ms so far
+2023-03-28 08:35:00:412 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-03-28 08:35:00:414 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element] with body: {"strategy":"-android uiautomator","selector":"text(\"进入首页\")","context":"","multiple":false}
+2023-03-28 08:35:01:395 [WD Proxy] Got response with status 404: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2023-03-28 08:35:01:395 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2023-03-28 08:35:01:396 [BaseDriver] Waited for 10059 ms so far
+2023-03-28 08:35:01:899 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-03-28 08:35:01:900 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element] with body: {"strategy":"-android uiautomator","selector":"text(\"进入首页\")","context":"","multiple":false}
+2023-03-28 08:35:02:393 [WD Proxy] Got response with status 404: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2023-03-28 08:35:02:394 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2023-03-28 08:35:02:395 [BaseDriver] Waited for 11057 ms so far
+2023-03-28 08:35:02:897 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-03-28 08:35:02:898 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element] with body: {"strategy":"-android uiautomator","selector":"text(\"进入首页\")","context":"","multiple":false}
+2023-03-28 08:35:03:420 [WD Proxy] Got response with status 404: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2023-03-28 08:35:03:421 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2023-03-28 08:35:03:421 [BaseDriver] Waited for 12084 ms so far
+2023-03-28 08:35:03:923 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-03-28 08:35:03:923 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element] with body: {"strategy":"-android uiautomator","selector":"text(\"进入首页\")","context":"","multiple":false}
+2023-03-28 08:35:04:575 [WD Proxy] Got response with status 404: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2023-03-28 08:35:04:576 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2023-03-28 08:35:04:577 [BaseDriver] Waited for 13239 ms so far
+2023-03-28 08:35:05:078 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-03-28 08:35:05:078 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element] with body: {"strategy":"-android uiautomator","selector":"text(\"进入首页\")","context":"","multiple":false}
+2023-03-28 08:35:05:735 [WD Proxy] Got response with status 404: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2023-03-28 08:35:05:735 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2023-03-28 08:35:05:736 [BaseDriver] Waited for 14398 ms so far
+2023-03-28 08:35:06:239 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-03-28 08:35:06:239 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element] with body: {"strategy":"-android uiautomator","selector":"text(\"进入首页\")","context":"","multiple":false}
+2023-03-28 08:35:06:940 [WD Proxy] Got response with status 404: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2023-03-28 08:35:06:941 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2023-03-28 08:35:06:941 [BaseDriver] Waited for 15604 ms so far
+2023-03-28 08:35:07:444 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-03-28 08:35:07:444 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element] with body: {"strategy":"-android uiautomator","selector":"text(\"进入首页\")","context":"","multiple":false}
+2023-03-28 08:35:07:559 [WD Proxy] Got response with status 404: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2023-03-28 08:35:07:559 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2023-03-28 08:35:07:559 [BaseDriver] Waited for 16222 ms so far
+2023-03-28 08:35:08:061 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-03-28 08:35:08:062 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element] with body: {"strategy":"-android uiautomator","selector":"text(\"进入首页\")","context":"","multiple":false}
+2023-03-28 08:35:08:073 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"ELEMENT":"00000000-0000-0007-7fff-ffff0000001f","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0007-7fff-ffff0000001f"}}
+2023-03-28 08:35:08:074 [W3C (39792712)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0007-7fff-ffff0000001f","ELEMENT":"00000000-0000-0007-7fff-ffff0000001f"}
+2023-03-28 08:35:08:075 [HTTP] <-- POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element 200 16740 ms - 137
+2023-03-28 08:35:08:075 [HTTP] 
+2023-03-28 08:35:08:077 [HTTP] --> POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element/00000000-0000-0007-7fff-ffff0000001f/click
+2023-03-28 08:35:08:077 [HTTP] {"id":"00000000-0000-0007-7fff-ffff0000001f"}
+2023-03-28 08:35:08:079 [W3C (39792712)] Calling AppiumDriver.click() with args: ["00000000-0000-0007-7fff-ffff0000001f","39792712-a522-431d-9f4c-d03246ca11a8"]
+2023-03-28 08:35:08:079 [WD Proxy] Matched '/element/00000000-0000-0007-7fff-ffff0000001f/click' to command name 'click'
+2023-03-28 08:35:08:079 [WD Proxy] Proxying [POST /element/00000000-0000-0007-7fff-ffff0000001f/click] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element/00000000-0000-0007-7fff-ffff0000001f/click] with body: {"element":"00000000-0000-0007-7fff-ffff0000001f"}
+2023-03-28 08:35:08:094 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":null}
+2023-03-28 08:35:08:094 [W3C (39792712)] Responding to client with driver.click() result: null
+2023-03-28 08:35:08:096 [HTTP] <-- POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element/00000000-0000-0007-7fff-ffff0000001f/click 200 18 ms - 14
+2023-03-28 08:35:08:096 [HTTP] 
+2023-03-28 08:35:08:102 [HTTP] --> POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element
+2023-03-28 08:35:08:102 [HTTP] {"using":"xpath","value":"//*[@text='帐号密码登录']"}
+2023-03-28 08:35:08:103 [W3C (39792712)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='帐号密码登录']","39792712-a522-431d-9f4c-d03246ca11a8"]
+2023-03-28 08:35:08:104 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2023-03-28 08:35:08:104 [BaseDriver] Waiting up to 30000 ms for condition
+2023-03-28 08:35:08:105 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-03-28 08:35:08:105 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element] with body: {"strategy":"xpath","selector":"//*[@text='帐号密码登录']","context":"","multiple":false}
+2023-03-28 08:35:08:724 [WD Proxy] Got response with status 404: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:90)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:67)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCont...
+2023-03-28 08:35:08:724 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2023-03-28 08:35:08:724 [BaseDriver] Waited for 620 ms so far
+2023-03-28 08:35:09:227 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-03-28 08:35:09:227 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element] with body: {"strategy":"xpath","selector":"//*[@text='帐号密码登录']","context":"","multiple":false}
+2023-03-28 08:35:09:564 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"ELEMENT":"00000000-0000-0008-7fff-ffff0000002f","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0008-7fff-ffff0000002f"}}
+2023-03-28 08:35:09:565 [W3C (39792712)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0008-7fff-ffff0000002f","ELEMENT":"00000000-0000-0008-7fff-ffff0000002f"}
+2023-03-28 08:35:09:566 [HTTP] <-- POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element 200 1464 ms - 137
+2023-03-28 08:35:09:566 [HTTP] 
+2023-03-28 08:35:09:568 [HTTP] --> POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element/00000000-0000-0008-7fff-ffff0000002f/click
+2023-03-28 08:35:09:569 [HTTP] {"id":"00000000-0000-0008-7fff-ffff0000002f"}
+2023-03-28 08:35:09:570 [W3C (39792712)] Calling AppiumDriver.click() with args: ["00000000-0000-0008-7fff-ffff0000002f","39792712-a522-431d-9f4c-d03246ca11a8"]
+2023-03-28 08:35:09:570 [WD Proxy] Matched '/element/00000000-0000-0008-7fff-ffff0000002f/click' to command name 'click'
+2023-03-28 08:35:09:571 [WD Proxy] Proxying [POST /element/00000000-0000-0008-7fff-ffff0000002f/click] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element/00000000-0000-0008-7fff-ffff0000002f/click] with body: {"element":"00000000-0000-0008-7fff-ffff0000002f"}
+2023-03-28 08:35:09:586 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":null}
+2023-03-28 08:35:09:589 [W3C (39792712)] Responding to client with driver.click() result: null
+2023-03-28 08:35:09:591 [HTTP] <-- POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element/00000000-0000-0008-7fff-ffff0000002f/click 200 21 ms - 14
+2023-03-28 08:35:09:591 [HTTP] 
+2023-03-28 08:35:09:593 [HTTP] --> POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element
+2023-03-28 08:35:09:593 [HTTP] {"using":"id","value":"com.douban.frodo:id/input_user_name"}
+2023-03-28 08:35:09:594 [W3C (39792712)] Calling AppiumDriver.findElement() with args: ["id","com.douban.frodo:id/input_user_name","39792712-a522-431d-9f4c-d03246ca11a8"]
+2023-03-28 08:35:09:594 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2023-03-28 08:35:09:595 [BaseDriver] Waiting up to 30000 ms for condition
+2023-03-28 08:35:09:595 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-03-28 08:35:09:595 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element] with body: {"strategy":"id","selector":"com.douban.frodo:id/input_user_name","context":"","multiple":false}
+2023-03-28 08:35:10:508 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"ELEMENT":"00000000-0000-0009-7fff-ffff0000004a","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-7fff-ffff0000004a"}}
+2023-03-28 08:35:10:509 [W3C (39792712)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-7fff-ffff0000004a","ELEMENT":"00000000-0000-0009-7fff-ffff0000004a"}
+2023-03-28 08:35:10:510 [HTTP] <-- POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element 200 916 ms - 137
+2023-03-28 08:35:10:510 [HTTP] 
+2023-03-28 08:35:10:514 [HTTP] --> POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element/00000000-0000-0009-7fff-ffff0000004a/clear
+2023-03-28 08:35:10:515 [HTTP] {"id":"00000000-0000-0009-7fff-ffff0000004a"}
+2023-03-28 08:35:10:516 [W3C (39792712)] Calling AppiumDriver.clear() with args: ["00000000-0000-0009-7fff-ffff0000004a","39792712-a522-431d-9f4c-d03246ca11a8"]
+2023-03-28 08:35:10:517 [WD Proxy] Matched '/element/00000000-0000-0009-7fff-ffff0000004a/clear' to command name 'clear'
+2023-03-28 08:35:10:518 [WD Proxy] Proxying [POST /element/00000000-0000-0009-7fff-ffff0000004a/clear] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element/00000000-0000-0009-7fff-ffff0000004a/clear] with body: {"elementId":"00000000-0000-0009-7fff-ffff0000004a"}
+2023-03-28 08:35:10:537 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":null}
+2023-03-28 08:35:10:538 [W3C (39792712)] Responding to client with driver.clear() result: null
+2023-03-28 08:35:10:539 [HTTP] <-- POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element/00000000-0000-0009-7fff-ffff0000004a/clear 200 25 ms - 14
+2023-03-28 08:35:10:540 [HTTP] 
+2023-03-28 08:35:10:543 [HTTP] --> POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element/00000000-0000-0009-7fff-ffff0000004a/value
+2023-03-28 08:35:10:543 [HTTP] {"text":"18812341234","value":["1","8","8","1","1","5","3","6","6","0","8"],"id":"00000000-0000-0009-7fff-ffff0000004a"}
+2023-03-28 08:35:10:546 [W3C (39792712)] Calling AppiumDriver.setValue() with args: [["1","8","8","1","1","5","3","6","6","0","8"],"00000000-0000-0009-7fff-ffff0000004a","39792712-a522-431d-9f4c-d03246ca11a8"]
+2023-03-28 08:35:10:548 [WD Proxy] Matched '/element/00000000-0000-0009-7fff-ffff0000004a/value' to command name 'setValue'
+2023-03-28 08:35:10:548 [Protocol Converter] Added 'value' property ["1","8","8","1","1","5","3","6","6","0","8"] to 'setValue' request body
+2023-03-28 08:35:10:549 [WD Proxy] Proxying [POST /element/00000000-0000-0009-7fff-ffff0000004a/value] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element/00000000-0000-0009-7fff-ffff0000004a/value] with body: {"elementId":"00000000-0000-0009-7fff-ffff0000004a","text":"18812341234","replace":false,"unicodeKeyboard":true,"value":["1","8","8","1","1","5","3","6","6","0","8"]}
+2023-03-28 08:35:11:608 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":null}
+2023-03-28 08:35:11:609 [W3C (39792712)] Responding to client with driver.setValue() result: null
+2023-03-28 08:35:11:610 [HTTP] <-- POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element/00000000-0000-0009-7fff-ffff0000004a/value 200 1066 ms - 14
+2023-03-28 08:35:11:610 [HTTP] 
+2023-03-28 08:35:11:612 [HTTP] --> POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element
+2023-03-28 08:35:11:612 [HTTP] {"using":"-android uiautomator","value":"resourceId(\"com.douban.frodo:id/input_password\")"}
+2023-03-28 08:35:11:613 [W3C (39792712)] Calling AppiumDriver.findElement() with args: ["-android uiautomator","resourceId(\"com.douban.frodo:id/input_password\")","39792712-a522-431d-9f4c-d03246ca11a8"]
+2023-03-28 08:35:11:614 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2023-03-28 08:35:11:614 [BaseDriver] Waiting up to 30000 ms for condition
+2023-03-28 08:35:11:615 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-03-28 08:35:11:615 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element] with body: {"strategy":"-android uiautomator","selector":"resourceId(\"com.douban.frodo:id/input_password\")","context":"","multiple":false}
+2023-03-28 08:35:12:123 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"ELEMENT":"00000000-0000-0009-7fff-ffff0000004e","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-7fff-ffff0000004e"}}
+2023-03-28 08:35:12:123 [W3C (39792712)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-7fff-ffff0000004e","ELEMENT":"00000000-0000-0009-7fff-ffff0000004e"}
+2023-03-28 08:35:12:125 [HTTP] <-- POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element 200 512 ms - 137
+2023-03-28 08:35:12:125 [HTTP] 
+2023-03-28 08:35:12:128 [HTTP] --> POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element/00000000-0000-0009-7fff-ffff0000004e/clear
+2023-03-28 08:35:12:128 [HTTP] {"id":"00000000-0000-0009-7fff-ffff0000004e"}
+2023-03-28 08:35:12:129 [W3C (39792712)] Calling AppiumDriver.clear() with args: ["00000000-0000-0009-7fff-ffff0000004e","39792712-a522-431d-9f4c-d03246ca11a8"]
+2023-03-28 08:35:12:131 [WD Proxy] Matched '/element/00000000-0000-0009-7fff-ffff0000004e/clear' to command name 'clear'
+2023-03-28 08:35:12:131 [WD Proxy] Proxying [POST /element/00000000-0000-0009-7fff-ffff0000004e/clear] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element/00000000-0000-0009-7fff-ffff0000004e/clear] with body: {"elementId":"00000000-0000-0009-7fff-ffff0000004e"}
+2023-03-28 08:35:12:151 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":null}
+2023-03-28 08:35:12:151 [W3C (39792712)] Responding to client with driver.clear() result: null
+2023-03-28 08:35:12:152 [HTTP] <-- POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element/00000000-0000-0009-7fff-ffff0000004e/clear 200 24 ms - 14
+2023-03-28 08:35:12:152 [HTTP] 
+2023-03-28 08:35:12:157 [HTTP] --> POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element/00000000-0000-0009-7fff-ffff0000004e/value
+2023-03-28 08:35:12:157 [HTTP] {"text":"mima","value":["q","1","w","2","e","3","r","4","@","@"],"id":"00000000-0000-0009-7fff-ffff0000004e"}
+2023-03-28 08:35:12:158 [W3C (39792712)] Calling AppiumDriver.setValue() with args: [["q","1","w","2","e","3","r","4","@","@"],"00000000-0000-0009-7fff-ffff0000004e","39792712-a522-431d-9f4c-d03246ca11a8"]
+2023-03-28 08:35:12:159 [WD Proxy] Matched '/element/00000000-0000-0009-7fff-ffff0000004e/value' to command name 'setValue'
+2023-03-28 08:35:12:160 [Protocol Converter] Added 'value' property ["q","1","w","2","e","3","r","4","@","@"] to 'setValue' request body
+2023-03-28 08:35:12:160 [WD Proxy] Proxying [POST /element/00000000-0000-0009-7fff-ffff0000004e/value] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element/00000000-0000-0009-7fff-ffff0000004e/value] with body: {"elementId":"00000000-0000-0009-7fff-ffff0000004e","text":"mima","replace":false,"unicodeKeyboard":true,"value":["q","1","w","2","e","3","r","4","@","@"]}
+2023-03-28 08:35:12:771 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":null}
+2023-03-28 08:35:12:772 [W3C (39792712)] Responding to client with driver.setValue() result: null
+2023-03-28 08:35:12:773 [HTTP] <-- POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element/00000000-0000-0009-7fff-ffff0000004e/value 200 615 ms - 14
+2023-03-28 08:35:12:773 [HTTP] 
+2023-03-28 08:35:12:776 [HTTP] --> POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element
+2023-03-28 08:35:12:776 [HTTP] {"using":"-android uiautomator","value":"text(\"登录\")"}
+2023-03-28 08:35:12:777 [W3C (39792712)] Calling AppiumDriver.findElement() with args: ["-android uiautomator","text(\"登录\")","39792712-a522-431d-9f4c-d03246ca11a8"]
+2023-03-28 08:35:12:780 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2023-03-28 08:35:12:780 [BaseDriver] Waiting up to 30000 ms for condition
+2023-03-28 08:35:12:781 [WD Proxy] Matched '/element' to command name 'findElement'
+2023-03-28 08:35:12:781 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element] with body: {"strategy":"-android uiautomator","selector":"text(\"登录\")","context":"","multiple":false}
+2023-03-28 08:35:13:278 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":{"ELEMENT":"00000000-0000-0009-7fff-ffff00000051","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-7fff-ffff00000051"}}
+2023-03-28 08:35:13:279 [W3C (39792712)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0009-7fff-ffff00000051","ELEMENT":"00000000-0000-0009-7fff-ffff00000051"}
+2023-03-28 08:35:13:280 [HTTP] <-- POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element 200 504 ms - 137
+2023-03-28 08:35:13:280 [HTTP] 
+2023-03-28 08:35:13:283 [HTTP] --> POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element/00000000-0000-0009-7fff-ffff00000051/click
+2023-03-28 08:35:13:284 [HTTP] {"id":"00000000-0000-0009-7fff-ffff00000051"}
+2023-03-28 08:35:13:284 [W3C (39792712)] Calling AppiumDriver.click() with args: ["00000000-0000-0009-7fff-ffff00000051","39792712-a522-431d-9f4c-d03246ca11a8"]
+2023-03-28 08:35:13:285 [WD Proxy] Matched '/element/00000000-0000-0009-7fff-ffff00000051/click' to command name 'click'
+2023-03-28 08:35:13:286 [WD Proxy] Proxying [POST /element/00000000-0000-0009-7fff-ffff00000051/click] to [POST http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/element/00000000-0000-0009-7fff-ffff00000051/click] with body: {"element":"00000000-0000-0009-7fff-ffff00000051"}
+2023-03-28 08:35:13:307 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":null}
+2023-03-28 08:35:13:308 [W3C (39792712)] Responding to client with driver.click() result: null
+2023-03-28 08:35:13:309 [HTTP] <-- POST /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/element/00000000-0000-0009-7fff-ffff00000051/click 200 25 ms - 14
+2023-03-28 08:35:13:309 [HTTP] 
+2023-03-28 08:35:13:316 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:13:316 [HTTP] {}
+2023-03-28 08:35:13:319 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:13:321 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:13:321 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:13:489 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:13:490 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:13:493 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 175 ms - 12844
+2023-03-28 08:35:13:493 [HTTP] 
+2023-03-28 08:35:13:995 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:13:995 [HTTP] {}
+2023-03-28 08:35:13:999 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:13:999 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:14:000 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:14:087 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:14:087 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:14:089 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 93 ms - 12843
+2023-03-28 08:35:14:091 [HTTP] 
+2023-03-28 08:35:14:592 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:14:592 [HTTP] {}
+2023-03-28 08:35:14:592 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:14:593 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:14:594 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:14:658 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:14:658 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:14:660 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 67 ms - 12843
+2023-03-28 08:35:14:660 [HTTP] 
+2023-03-28 08:35:15:163 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:15:164 [HTTP] {}
+2023-03-28 08:35:15:165 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:15:165 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:15:165 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:15:235 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:15:235 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:15:238 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 74 ms - 12843
+2023-03-28 08:35:15:238 [HTTP] 
+2023-03-28 08:35:15:741 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:15:741 [HTTP] {}
+2023-03-28 08:35:15:741 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:15:742 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:15:743 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:15:803 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:15:804 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:15:805 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 64 ms - 12843
+2023-03-28 08:35:15:805 [HTTP] 
+2023-03-28 08:35:16:309 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:16:310 [HTTP] {}
+2023-03-28 08:35:16:311 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:16:312 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:16:313 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:16:400 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:16:400 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:16:402 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 92 ms - 12843
+2023-03-28 08:35:16:402 [HTTP] 
+2023-03-28 08:35:16:904 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:16:904 [HTTP] {}
+2023-03-28 08:35:16:904 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:16:905 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:16:905 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:16:954 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:16:954 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:16:955 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 51 ms - 12843
+2023-03-28 08:35:16:955 [HTTP] 
+2023-03-28 08:35:17:458 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:17:459 [HTTP] {}
+2023-03-28 08:35:17:459 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:17:460 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:17:460 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:17:538 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:17:539 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:17:540 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 81 ms - 12843
+2023-03-28 08:35:17:541 [HTTP] 
+2023-03-28 08:35:18:044 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:18:044 [HTTP] {}
+2023-03-28 08:35:18:045 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:18:045 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:18:046 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:18:103 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:18:104 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:18:105 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 61 ms - 12843
+2023-03-28 08:35:18:105 [HTTP] 
+2023-03-28 08:35:18:607 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:18:607 [HTTP] {}
+2023-03-28 08:35:18:608 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:18:608 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:18:608 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:18:659 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:18:660 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:18:661 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 54 ms - 12843
+2023-03-28 08:35:18:661 [HTTP] 
+2023-03-28 08:35:19:165 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:19:166 [HTTP] {}
+2023-03-28 08:35:19:166 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:19:168 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:19:168 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:19:233 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:19:233 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:19:234 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 69 ms - 12843
+2023-03-28 08:35:19:234 [HTTP] 
+2023-03-28 08:35:19:737 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:19:738 [HTTP] {}
+2023-03-28 08:35:19:742 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:19:743 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:19:743 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:19:801 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:19:801 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:19:802 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 64 ms - 12843
+2023-03-28 08:35:19:802 [HTTP] 
+2023-03-28 08:35:20:305 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:20:305 [HTTP] {}
+2023-03-28 08:35:20:306 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:20:306 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:20:306 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:20:358 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:20:358 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:20:359 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 53 ms - 12843
+2023-03-28 08:35:20:359 [HTTP] 
+2023-03-28 08:35:20:861 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:20:861 [HTTP] {}
+2023-03-28 08:35:20:862 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:20:862 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:20:862 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:20:914 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:20:915 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:20:916 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 54 ms - 12843
+2023-03-28 08:35:20:916 [HTTP] 
+2023-03-28 08:35:21:420 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:21:420 [HTTP] {}
+2023-03-28 08:35:21:420 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:21:421 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:21:421 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:21:474 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:21:474 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:21:475 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 55 ms - 12843
+2023-03-28 08:35:21:476 [HTTP] 
+2023-03-28 08:35:21:978 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:21:978 [HTTP] {}
+2023-03-28 08:35:21:978 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:21:979 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:21:979 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:22:037 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:22:038 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:22:039 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 61 ms - 12843
+2023-03-28 08:35:22:040 [HTTP] 
+2023-03-28 08:35:22:542 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:22:542 [HTTP] {}
+2023-03-28 08:35:22:542 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:22:543 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:22:543 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:22:593 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:22:594 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:22:595 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 53 ms - 12843
+2023-03-28 08:35:22:595 [HTTP] 
+2023-03-28 08:35:23:097 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:23:098 [HTTP] {}
+2023-03-28 08:35:23:098 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:23:098 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:23:099 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:23:161 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:23:161 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:23:162 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 64 ms - 12843
+2023-03-28 08:35:23:162 [HTTP] 
+2023-03-28 08:35:23:665 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:23:666 [HTTP] {}
+2023-03-28 08:35:23:666 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:23:668 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:23:668 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:24:320 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:24:320 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:24:321 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 656 ms - 12843
+2023-03-28 08:35:24:322 [HTTP] 
+2023-03-28 08:35:24:825 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:24:825 [HTTP] {}
+2023-03-28 08:35:24:826 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:24:827 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:24:828 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:24:913 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:24:914 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:24:915 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 90 ms - 12843
+2023-03-28 08:35:24:916 [HTTP] 
+2023-03-28 08:35:25:423 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:25:425 [HTTP] {}
+2023-03-28 08:35:25:426 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:25:430 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:25:430 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:25:511 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:25:512 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:25:513 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 89 ms - 12843
+2023-03-28 08:35:25:513 [HTTP] 
+2023-03-28 08:35:26:017 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:26:017 [HTTP] {}
+2023-03-28 08:35:26:017 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:26:019 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:26:019 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:26:078 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:26:078 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:26:079 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 62 ms - 12843
+2023-03-28 08:35:26:080 [HTTP] 
+2023-03-28 08:35:26:582 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:26:582 [HTTP] {}
+2023-03-28 08:35:26:583 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:26:583 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:26:583 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:26:651 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:26:651 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:26:652 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 70 ms - 12843
+2023-03-28 08:35:26:653 [HTTP] 
+2023-03-28 08:35:27:156 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:27:157 [HTTP] {}
+2023-03-28 08:35:27:158 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:27:162 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:27:162 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:27:226 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:27:227 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:27:228 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 71 ms - 12843
+2023-03-28 08:35:27:228 [HTTP] 
+2023-03-28 08:35:27:732 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:27:733 [HTTP] {}
+2023-03-28 08:35:27:733 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:27:734 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:27:734 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:27:829 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:27:830 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:27:831 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 98 ms - 12843
+2023-03-28 08:35:27:832 [HTTP] 
+2023-03-28 08:35:28:334 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:28:334 [HTTP] {}
+2023-03-28 08:35:28:334 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:28:336 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:28:336 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:28:418 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:28:420 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:28:422 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 88 ms - 12843
+2023-03-28 08:35:28:422 [HTTP] 
+2023-03-28 08:35:28:924 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:28:924 [HTTP] {}
+2023-03-28 08:35:28:925 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:28:926 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:28:926 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:28:984 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:28:984 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:28:985 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 61 ms - 12843
+2023-03-28 08:35:28:985 [HTTP] 
+2023-03-28 08:35:29:488 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:29:488 [HTTP] {}
+2023-03-28 08:35:29:488 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:29:489 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:29:490 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:29:546 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:29:546 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:29:548 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 59 ms - 12843
+2023-03-28 08:35:29:548 [HTTP] 
+2023-03-28 08:35:30:052 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:30:052 [HTTP] {}
+2023-03-28 08:35:30:053 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:30:053 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:30:054 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:30:111 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:30:111 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:30:112 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 60 ms - 12843
+2023-03-28 08:35:30:112 [HTTP] 
+2023-03-28 08:35:30:615 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:30:615 [HTTP] {}
+2023-03-28 08:35:30:615 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:30:616 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:30:616 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:30:678 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:30:678 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:30:679 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 64 ms - 12843
+2023-03-28 08:35:30:680 [HTTP] 
+2023-03-28 08:35:31:183 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:31:183 [HTTP] {}
+2023-03-28 08:35:31:184 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:31:185 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:31:185 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:31:254 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:31:254 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:31:256 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 72 ms - 12843
+2023-03-28 08:35:31:256 [HTTP] 
+2023-03-28 08:35:31:758 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:31:758 [HTTP] {}
+2023-03-28 08:35:31:758 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:31:760 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:31:760 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:31:816 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:31:816 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:31:818 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 59 ms - 12843
+2023-03-28 08:35:31:818 [HTTP] 
+2023-03-28 08:35:32:321 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:32:321 [HTTP] {}
+2023-03-28 08:35:32:322 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:32:322 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:32:323 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:32:383 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:32:383 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:32:385 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 63 ms - 12843
+2023-03-28 08:35:32:385 [HTTP] 
+2023-03-28 08:35:32:887 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source
+2023-03-28 08:35:32:888 [HTTP] {}
+2023-03-28 08:35:32:888 [W3C (39792712)] Driver proxy active, passing request on via HTTP proxy
+2023-03-28 08:35:32:889 [WD Proxy] Matched '/wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source' to command name 'getPageSource'
+2023-03-28 08:35:32:889 [WD Proxy] Proxying [GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/source] with no body
+2023-03-28 08:35:32:956 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"3\" width=\"900\" height=\"1600\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.douban.frodo\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][900,1600]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"com.douban.frodo\"...
+2023-03-28 08:35:32:956 [WD Proxy] Replacing sessionId 881c4d26-8b7f-4297-a4a9-63e55a8b15e1 with 39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:32:958 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/source 200 70 ms - 12843
+2023-03-28 08:35:32:958 [HTTP] 
+2023-03-28 08:35:33:691 [HTTP] --> GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/screenshot
+2023-03-28 08:35:33:691 [HTTP] {}
+2023-03-28 08:35:33:692 [W3C (39792712)] Calling AppiumDriver.getScreenshot() with args: ["39792712-a522-431d-9f4c-d03246ca11a8"]
+2023-03-28 08:35:33:692 [WD Proxy] Matched '/screenshot' to command name 'getScreenshot'
+2023-03-28 08:35:33:693 [WD Proxy] Proxying [GET /screenshot] to [GET http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1/screenshot] with no body
+2023-03-28 08:35:34:080 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":"iVBORw0KGgoAAAANSUhEUgAAA4QAAAZACAIAAACubRtpAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnOzdeWAM9//H8c/mljuRCCFB60ziSoi7lCqK1q1apa2rrjpbVP3qKNWirlLUfZa6Ko4q1VJEpRJn\nCEHiiJwSue/9/THtfqebzdpsEhM8H3/tzM585pODvPY9n89nVGq1WgAAAABKMFG6AwAAAHhxEUYB\nAACgGMIoAAAAFEMYBQAAgGIIowAAAFAMYRQAAACKIYwCAABAMYRRAAAAKIYwCgAAAMUQRgEAAKAY\nwigAAAAUQxgFAACAYgijAAAAUAxhFAAAAIohjAIAAEAxhFEAAAAohjAKAAAAxRBGAQAAoBjCKAAA\nABRDGAUAAIBiCKMAAABQDGEUAAAAiiGMAgAAQDGEUQAAACiGMAoAAADFEEYBAACgGMIoAAAAFEMY\nBQAAgGIIowAAAFAMYRQAAACKIYwCAABAMYRRAAAAKIYwCgAAAMUQRgEAAKAYwigAAAAUQxgFAACA\nYgijAAAAUAxhFAAAAIohjAIAAEAxhFEAAAAohjAKAAAAxRBGAQAAoBjCKAAAABRDGAUAAIBiCKMA\nAABQDGEUAAAAiiGMAgAAQDGEUQAAACiGMAoAAADFEEYBAACgGMIoAAAAFEMYBQAAgGIIowAAAFAM\nYRQAAACKIYwCAABAMYRRAAAAKIYwCgAAAMUQRgEAAKAYwigAAAAUQxgFAACAYgijAAAAUAxhFAAA\nAIohjAIAAEAxhFEAAAAohjAKAAAAxRBGAQAAoBjCKAAAABRDGAUAAIBiCKMAAABQDGEUAAAAiiGM\nAgAAQDGEUQAAACiGMAoAAADFEEYBAACgGMIoAAAAFEMYBQAAgGIIowAAAFDMMxBG79y5M3bs2LFj\nxz548EDpvgAAAKAkmSndgScI...
+2023-03-28 08:35:34:081 [W3C (39792712)] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAA4QAAAZACAIAAACubRtpAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnOzdeWAM9//H8c/mljuRCCFB60ziSoi7lCqK1q1apa2rrjpbVP3qKNWirlLUfZa6Ko4q1VJEpRJn\nCEHiiJwSue/9/THtfqebzdpsEhM8H3/tzM585pODvPY9n89nVGq1WgAAAABKMFG6AwAAAHhxEUYB\nAACgGMIoAAAAFEMYBQAAgGIIowAAAFAMYRQAAACKIYwCAABAMYRRAAAAKIYwCgAAAMUQRgEAAKAY\nwigAAAAUQxgFAACAYgijAAAAUAxhFAAAAIohjAIAAEAxhFEAAAAohjAKAAAAxRBGAQAAoBjCKAAA\nABRDGAUAAIBiCKMAAABQDGEUAAAAiiGMAgAAQDGEUQAAACiGMAoAAADFEEYBAACgGMIoAAAAFEMY\nBQAAgGIIowAAAFAMYRQAAACKIYwCAABAMYRRAAAAKIYwCgAAAMUQRgEAAKAYwigAAAAUQxgFAACA\nYgijAAAAUAxhFAAAAIohjAIAAEAxhFEAAAAohjAKAAAAxRBGAQAAoBjCKAAAABRDGAUAAIBiCKMA\nAABQDGEUAAAAiiGMAgAAQDGEUQAAACiGMAoAAADFEEYBAACgGMIoAAAAFEMYBQAAgGIIowAAAFAM\nYRQAAACKIYwCAABAMYRRAAAAKIYwCgAAAMUQRgEAAKAYwigAAAAUQxgFAACAYgijAAAAUAxhFAAA\nAIohjAIAAEAxhFEAAAAohjAKAAAAxRBGAQAAoBjCKAAAABRDGAUAAIBiCKMAAABQDGEUAAAAiiGM\nAgAAQDGEUQAAACiGMAoAAADFEEYBAACgGMIoAAAAFEMYBQAAgGIIowAAAFDMMxBG79y5M3bs2LFj\nxz548EDpvgAAAKAkmSndgScIDw/v3r17aGiotLlkyRJl+wMAAIASVKYro2FhYW+99dbVq1fVarXS\nfQEAAE...
+2023-03-28 08:35:34:083 [HTTP] <-- GET /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8/screenshot 200 391 ms - 101326
+2023-03-28 08:35:34:083 [HTTP] 
+2023-03-28 08:35:34:096 [HTTP] --> DELETE /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8
+2023-03-28 08:35:34:096 [HTTP] {}
+2023-03-28 08:35:34:096 [W3C (39792712)] Calling AppiumDriver.deleteSession() with args: ["39792712-a522-431d-9f4c-d03246ca11a8"]
+2023-03-28 08:35:34:097 [BaseDriver] Event 'quitSessionRequested' logged at 1679992534097 (16:35:34 GMT+0800 (中国标准时间))
+2023-03-28 08:35:34:097 [Appium] Removing session 39792712-a522-431d-9f4c-d03246ca11a8 from our master session list
+2023-03-28 08:35:34:098 [UiAutomator2] Deleting UiAutomator2 session
+2023-03-28 08:35:34:100 [UiAutomator2] Deleting UiAutomator2 server session
+2023-03-28 08:35:34:101 [WD Proxy] Matched '/' to command name 'deleteSession'
+2023-03-28 08:35:34:101 [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:5640/wd/hub/session/881c4d26-8b7f-4297-a4a9-63e55a8b15e1] with no body
+2023-03-28 08:35:34:111 [WD Proxy] Got response with status 200: {"sessionId":"881c4d26-8b7f-4297-a4a9-63e55a8b15e1","value":null}
+2023-03-28 08:35:34:112 [UiAutomator2] Resetting IME to 'com.android.inputservice/.InputService'
+2023-03-28 08:35:34:112 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell ime set com.android.inputservice/.InputService'
+2023-03-28 08:35:34:599 [Instrumentation] .
+2023-03-28 08:35:34:605 [Instrumentation] Time: 50.105
+
+
+2023-03-28 08:35:34:605 [Instrumentation] 
+
+
+2023-03-28 08:35:34:605 [Instrumentation] OK (1 test)
+2023-03-28 08:35:34:828 [Instrumentation] The process has exited with code 0
+2023-03-28 08:35:34:921 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 shell am force-stop com.douban.frodo'
+2023-03-28 08:35:35:841 [Logcat] Stopping logcat capture
+2023-03-28 08:35:35:849 [ADB] Removing forwarded port socket connection: 5640 
+2023-03-28 08:35:35:849 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62025 forward --remove tcp:5640'
+2023-03-28 08:35:35:914 [BaseDriver] Event 'quitSessionFinished' logged at 1679992535914 (16:35:35 GMT+0800 (中国标准时间))
+2023-03-28 08:35:35:915 [W3C (39792712)] Received response: null
+2023-03-28 08:35:35:915 [W3C (39792712)] But deleting session, so not returning
+2023-03-28 08:35:35:915 [W3C (39792712)] Responding to client with driver.deleteSession() result: null
+2023-03-28 08:35:35:918 [HTTP] <-- DELETE /wd/hub/session/39792712-a522-431d-9f4c-d03246ca11a8 200 1821 ms - 14
+2023-03-28 08:35:35:918 [HTTP] 

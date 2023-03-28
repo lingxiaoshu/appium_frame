@@ -1,0 +1,10 @@
+2023-03-28 08:29:40:486 [Appium] Welcome to Appium v1.22.3
+2023-03-28 08:29:40:490 [Appium] Non-default server args:
+2023-03-28 08:29:40:491 [Appium]   port: 4323
+2023-03-28 08:29:40:495 [Appium]   logFile: E:\learning\python\pycharm\project\mobile_frame/logs/appium4323.log
+2023-03-28 08:29:40:495 [Appium]   chromedriverPort: 6460
+2023-03-28 08:29:40:497 [Appium] Deprecated server args:
+2023-03-28 08:29:40:498 [Appium]   --chromedriver-port => --default-capabilities
+2023-03-28 08:29:40:505 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2023-03-28 08:29:40:507 [Appium]   chromedriverPort: 6460
+2023-03-28 08:29:40:665 [Appium] Appium REST http interface listener started on 0.0.0.0:4323

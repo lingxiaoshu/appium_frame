@@ -1,0 +1,31 @@
+[ {
+  "uid" : "b00f2dedbf2b18c3",
+  "name" : "登录用户名错误",
+  "time" : {
+    "start" : 1680002061476,
+    "stop" : 1680002081029,
+    "duration" : 19553
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e188c3515c4ce1c",
+  "name" : "登录密码错误",
+  "time" : {
+    "start" : 1680002097983,
+    "stop" : 1680002119247,
+    "duration" : 21264
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1291d446031dd1b",
+  "name" : "正确登录",
+  "time" : {
+    "start" : 1680002138327,
+    "stop" : 1680002165181,
+    "duration" : 26854
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

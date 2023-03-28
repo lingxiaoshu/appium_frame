@@ -1,0 +1,45 @@
+INFO     apiautotest:driver.py:159 元素的定位策略是('-android uiautomator', 'text("同意")')
+INFO     apiautotest:driver.py:188 截图并保存成功
+INFO     apiautotest:driver.py:77 元素{'name': '同意按钮', 'type': 'uiautomator', 'value': 'text("同意")'}点击成功
+INFO     apiautotest:driver.py:159 元素的定位策略是('-android uiautomator', 'text("进入首页")')
+INFO     apiautotest:driver.py:188 截图并保存成功
+INFO     apiautotest:driver.py:188 截图并保存成功
+WARNING  urllib3.connectionpool:connectionpool.py:308 Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO     apiautotest:driver.py:77 元素{'name': '进入首页', 'type': 'uiautomator', 'value': 'text("进入首页")'}点击成功
+INFO     apiautotest:driver.py:159 元素的定位策略是('xpath', "//*[@text='帐号密码登录']")
+INFO     apiautotest:driver.py:188 截图并保存成功
+WARNING  urllib3.connectionpool:connectionpool.py:308 Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO     apiautotest:driver.py:77 元素{'name': '帐号密码登录', 'type': 'xpath', 'value': "//*[@text='帐号密码登录']"}点击成功
+INFO     apiautotest:driver.py:159 元素的定位策略是('id', 'com.douban.frodo:id/input_user_name')
+INFO     apiautotest:driver.py:53 查找{'name': '输入用户名', 'type': 'id', 'value': 'com.douban.frodo:id/input_user_name'}元素成功
+INFO     apiautotest:driver.py:188 截图并保存成功
+WARNING  urllib3.connectionpool:connectionpool.py:308 Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO     apiautotest:driver.py:86 元素{'name': '输入用户名', 'type': 'id', 'value': 'com.douban.frodo:id/input_user_name'}输入文本内容1234成功
+INFO     apiautotest:driver.py:159 元素的定位策略是('-android uiautomator', 'resourceId("com.douban.frodo:id/input_password")')
+INFO     apiautotest:driver.py:188 截图并保存成功
+WARNING  urllib3.connectionpool:connectionpool.py:308 Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO     apiautotest:driver.py:53 查找{'name': '输入密码', 'type': 'uiautomator', 'value': 'resourceId("com.douban.frodo:id/input_password")'}元素成功
+INFO     apiautotest:driver.py:86 元素{'name': '输入密码', 'type': 'uiautomator', 'value': 'resourceId("com.douban.frodo:id/input_password")'}输入文本内容q1w2e3r4@@成功
+INFO     apiautotest:driver.py:159 元素的定位策略是('-android uiautomator', 'text("登录")')
+INFO     apiautotest:driver.py:188 截图并保存成功
+WARNING  urllib3.connectionpool:connectionpool.py:308 Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO     apiautotest:driver.py:188 截图并保存成功
+WARNING  urllib3.connectionpool:connectionpool.py:308 Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO     apiautotest:driver.py:77 元素{'name': '登录按钮', 'type': 'uiautomator', 'value': 'text("登录")'}点击成功
+INFO     apiautotest:driver.py:104 元素源码中包含登录文本
+INFO     apiautotest:driver.py:188 截图并保存成功
+INFO     apiautotest:driver.py:188 截图并保存成功
+INFO     apiautotest:driver.py:188 截图并保存成功
+INFO     apiautotest:driver.py:188 截图并保存成功
+INFO     apiautotest:driver.py:188 截图并保存成功
+INFO     apiautotest:driver.py:188 截图并保存成功
+INFO     apiautotest:driver.py:188 截图并保存成功
+INFO     apiautotest:driver.py:188 截图并保存成功
+INFO     apiautotest:driver.py:188 截图并保存成功
+INFO     apiautotest:driver.py:188 截图并保存成功
+WARNING  urllib3.connectionpool:connectionpool.py:308 Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO     apiautotest:driver.py:188 截图并保存成功
+INFO     apiautotest:driver.py:188 截图并保存成功
+INFO     apiautotest:driver.py:188 截图并保存成功
+INFO     apiautotest:driver.py:188 截图并保存成功
+INFO     apiautotest:driver.py:188 截图并保存成功

@@ -1,0 +1,7 @@
+LoginPage:
+ 同意按钮: {"name":"同意按钮","type":"uiautomator","value":'text("同意")'}
+ 进入首页: {"name":"进入首页","type":"uiautomator","value":'text("进入首页")'}
+ 帐号密码登录: {"name":"帐号密码登录","type":"xpath","value":"//*[@text='帐号密码登录']"}
+ 输入用户名: {"name":"输入用户名","type":"id","value":"com.douban.frodo:id/input_user_name"}
+ 输入密码: {"name":"输入密码","type":"uiautomator","value":'resourceId("com.douban.frodo:id/input_password")'}
+ 登录按钮: {"name":"登录按钮","type":"uiautomator","value":'text("登录")'}

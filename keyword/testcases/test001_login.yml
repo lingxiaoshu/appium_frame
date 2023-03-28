@@ -1,0 +1,29 @@
+name: 登录测试集合  # 表示该测试用例的名称
+testcases:
+  - testcase:
+      name: 登录用户名错误 # 测试用例名称
+      action: /keyword/actions/login.yml # 表示该测试用例对应的业务
+      params: # 这表示该测试用例的数据变量
+        username: xxxxx  # 用户名错误
+        password: xxxxx  # 正确的密码
+      validate: # 表示断言
+        - type: page_contains # 断言类型
+          expect: 登录 # 期望值
+  - testcase:
+      name: 登录密码错误 # 测试用例名称
+      action: /keyword/actions/login.yml # 表示该测试用例对应的业务
+      params: # 这表示该测试用例的数据变量
+        username: xxxxx  # 用户名
+        password: xxxxx   # 错误密码
+      validate: # 表示断言
+        - type: page_contains # 断言类型
+          expect: 登录 # 期望值
+  - testcase:
+      name: 正确登录 # 测试用例名称
+      action: /keyword/actions/login.yml # 表示该测试用例对应的业务
+      params: # 这表示该测试用例的数据变量
+        username: xxxxx  #正确账号
+        password: xxxxx   # 正确密码
+      validate: # 表示断言
+        - type: page_contains # 断言类型
+          expect: 首页 # 期望值

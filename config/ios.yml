@@ -1,0 +1,9 @@
+platformName: ios
+deviceName: xxx
+udid: 127.0.0.1:62001
+app: E:\\packages\\tools\\apk\\douban_7.0.apk
+noSign: True
+unicodeKeyboard: True
+resetKeyboard: True
+newCommandTimeout: 600
+autoGrantPermissions: True

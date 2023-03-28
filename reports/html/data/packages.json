@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "keyword.keyword_run",
+    "children" : [ {
+      "name" : "登录用户名错误",
+      "uid" : "b00f2dedbf2b18c3",
+      "parentUid" : "577f1b28658732958d322ec340eb784b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680002061476,
+        "stop" : 1680002081029,
+        "duration" : 19553
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '登录用户名错误', 'action': '/keyword/actions/login.yml', 'params': {'username': 1234, 'password': 'q1w2e3r4@@'}, 'validate': [{'type': 'page_contains', 'expect': '登录'}]}", "'登录用户名错误'" ]
+    }, {
+      "name" : "登录密码错误",
+      "uid" : "1e188c3515c4ce1c",
+      "parentUid" : "577f1b28658732958d322ec340eb784b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680002097983,
+        "stop" : 1680002119247,
+        "duration" : 21264
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '登录密码错误', 'action': '/keyword/actions/login.yml', 'params': {'username': '2981727908@qq.com', 'password': 'yaoyao'}, 'validate': [{'type': 'page_contains', 'expect': '登录'}]}", "'登录密码错误'" ]
+    }, {
+      "name" : "正确登录",
+      "uid" : "d1291d446031dd1b",
+      "parentUid" : "577f1b28658732958d322ec340eb784b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680002138327,
+        "stop" : 1680002165181,
+        "duration" : 26854
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '正确登录', 'action': '/keyword/actions/login.yml', 'params': {'username': '2981727908@qq.com', 'password': 'q1w2e3r4@@'}, 'validate': [{'type': 'page_contains', 'expect': '首页'}]}", "'正确登录'" ]
+    } ],
+    "uid" : "keyword.keyword_run"
+  } ]
+}

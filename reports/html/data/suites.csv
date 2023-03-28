@@ -1,0 +1,19 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Mar 28 19:15:38 CST 2023","Tue Mar 28 19:16:05 CST 2023","26854","keyword","keyword_run","","","","正确登录","
+
+    :param case_name:
+    :param case: 每条测试用例的详细信息
+    :return:
+    "
+"passed","Tue Mar 28 19:14:21 CST 2023","Tue Mar 28 19:14:41 CST 2023","19553","keyword","keyword_run","","","","登录用户名错误","
+
+    :param case_name:
+    :param case: 每条测试用例的详细信息
+    :return:
+    "
+"passed","Tue Mar 28 19:14:57 CST 2023","Tue Mar 28 19:15:19 CST 2023","21264","keyword","keyword_run","","","","登录密码错误","
+
+    :param case_name:
+    :param case: 每条测试用例的详细信息
+    :return:
+    "

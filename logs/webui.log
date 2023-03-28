@@ -1,0 +1,16 @@
+2023-03-28 15:13:10,556 INFO [apiautotest] [driver.py (get_by:150] - 元素的定位策略是('-android uiautomator', 'text("同意")')
+2023-03-28 15:13:10,871 INFO [apiautotest] [driver.py (click:68] - 元素{'name': '同意按钮', 'type': 'uiautomator', 'value': 'text("同意")'}点击成功
+2023-03-28 15:13:10,871 INFO [apiautotest] [driver.py (get_by:150] - 元素的定位策略是('-android uiautomator', 'text("进入首页")')
+2023-03-28 15:13:22,865 INFO [apiautotest] [driver.py (click:68] - 元素{'name': '进入首页', 'type': 'uiautomator', 'value': 'text("进入首页")'}点击成功
+2023-03-28 15:13:22,865 INFO [apiautotest] [driver.py (get_by:150] - 元素的定位策略是('xpath', "//*[@text='帐号密码登录']")
+2023-03-28 15:13:24,726 INFO [apiautotest] [driver.py (click:68] - 元素{'name': '帐号密码登录', 'type': 'xpath', 'value': "//*[@text='帐号密码登录']"}点击成功
+2023-03-28 15:13:24,727 INFO [apiautotest] [driver.py (get_by:150] - 元素的定位策略是('id', 'com.douban.frodo:id/input_user_name')
+2023-03-28 15:13:26,020 INFO [apiautotest] [driver.py (find_element:44] - 查找{'name': '输入用户名', 'type': 'id', 'value': 'com.douban.frodo:id/input_user_name'}元素成功
+2023-03-28 15:13:27,092 INFO [apiautotest] [driver.py (send_keys:77] - 元素{'name': '输入用户名', 'type': 'id', 'value': 'com.douban.frodo:id/input_user_name'}输入文本内容18812341234成功
+2023-03-28 15:13:27,092 INFO [apiautotest] [driver.py (get_by:150] - 元素的定位策略是('-android uiautomator', 'resourceId("com.douban.frodo:id/input_password")')
+2023-03-28 15:13:27,607 INFO [apiautotest] [driver.py (find_element:44] - 查找{'name': '输入密码', 'type': 'uiautomator', 'value': 'resourceId("com.douban.frodo:id/input_password")'}元素成功
+2023-03-28 15:13:28,259 INFO [apiautotest] [driver.py (send_keys:77] - 元素{'name': '输入密码', 'type': 'uiautomator', 'value': 'resourceId("com.douban.frodo:id/input_password")'}输入文本内容mima成功
+2023-03-28 15:13:28,259 INFO [apiautotest] [driver.py (get_by:150] - 元素的定位策略是('-android uiautomator', 'text("登录")')
+2023-03-28 15:13:28,794 INFO [apiautotest] [driver.py (click:68] - 元素{'name': '登录按钮', 'type': 'uiautomator', 'value': 'text("登录")'}点击成功
+2023-03-28 15:13:32,059 INFO [apiautotest] [driver.py (page_contains:95] - 元素源码中包含首页文本
+2023-03-28 15:13:46,080 INFO [apiautotest] [driver.py (quit:104] - driver退出成功

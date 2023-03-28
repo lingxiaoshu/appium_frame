@@ -1,0 +1,754 @@
+2023-03-28 17:06:43,796 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:06:44,500 INFO [apiautotest] [driver.py (get_screenshot_as_png:179] - 截图成功
+2023-03-28 17:06:45,094 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:06:46,490 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:06:47,146 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:06:47,765 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:06:48,364 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:06:48,922 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:06:52,127 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:06:56,536 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:06:57,050 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:06:57,597 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:06:58,149 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:06:58,694 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:06:59,245 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:06:59,636 INFO [apiautotest] [driver.py (get_screenshot_as_png:179] - 截图成功
+2023-03-28 17:06:59,994 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:00,548 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:01,310 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:02,065 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:02,587 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:03,137 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:03,696 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:04,274 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:07,611 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:12,085 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:12,620 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:13,141 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:13,680 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:14,233 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:14,757 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:15,116 INFO [apiautotest] [driver.py (get_screenshot_as_png:179] - 截图成功
+2023-03-28 17:07:15,529 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:16,145 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:16,957 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:17,679 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:18,217 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:18,794 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:19,412 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:19,969 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:20,515 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:21,040 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:21,572 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:24,814 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:29,531 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:30,144 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:30,693 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:31,210 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:31,728 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:32,295 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:07:32,553 ERROR [apiautotest] [driver.py (get_screenshot_as_file:190] - 截图并保存失败，报错信息为Message: A session is either terminated or not started
+
+2023-03-28 17:07:34,431 INFO [apiautotest] [driver.py (quit:113] - driver退出成功
+2023-03-28 17:10:31,740 INFO [apiautotest] [driver.py (get_screenshot_as_png:179] - 截图成功
+2023-03-28 17:10:50,791 INFO [apiautotest] [driver.py (get_screenshot_as_png:179] - 截图成功
+2023-03-28 17:11:09,198 INFO [apiautotest] [driver.py (get_screenshot_as_png:179] - 截图成功
+2023-03-28 17:11:29,620 INFO [apiautotest] [driver.py (quit:113] - driver退出成功
+2023-03-28 17:12:16,575 INFO [apiautotest] [driver.py (get_screenshot_as_png:179] - 截图成功
+2023-03-28 17:12:35,637 INFO [apiautotest] [driver.py (get_screenshot_as_png:179] - 截图成功
+2023-03-28 17:12:53,931 INFO [apiautotest] [driver.py (get_screenshot_as_png:179] - 截图成功
+2023-03-28 17:13:16,080 ERROR [apiautotest] [driver.py (quit:115] - driver退出失败，报错信息为Message: A session is either terminated or not started
+
+2023-03-28 17:13:45,547 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:13:45,911 INFO [apiautotest] [driver.py (get_screenshot_as_png:179] - 截图成功
+2023-03-28 17:13:46,408 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:13:46,955 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:13:47,684 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:13:48,346 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:13:48,926 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:13:51,560 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:13:55,943 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:13:56,538 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:13:57,072 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:13:57,590 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:13:58,105 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:13:58,662 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:13:58,984 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:13:59,287 INFO [apiautotest] [driver.py (get_screenshot_as_png:179] - 截图成功
+2023-03-28 17:13:59,630 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:13:59,948 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:00,295 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:00,613 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:00,932 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:01,237 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:01,541 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:01,854 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:04,498 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:04,816 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:08,817 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:09,172 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:09,599 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:09,954 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:10,276 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:10,582 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:10,896 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:11,207 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:11,568 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:11,911 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:12,263 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:12,584 INFO [apiautotest] [driver.py (get_screenshot_as_png:179] - 截图成功
+2023-03-28 17:14:12,930 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:13,258 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:13,620 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:13,978 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:14,309 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:14,658 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:15,018 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:15,376 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:15,706 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:18,237 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:18,600 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:18,997 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:22,893 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:23,216 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:23,579 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:23,878 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:24,179 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:24,482 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:24,775 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:25,104 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:25,412 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:25,668 ERROR [apiautotest] [driver.py (get_screenshot_as_file:190] - 截图并保存失败，报错信息为Message: A session is either terminated or not started
+
+2023-03-28 17:14:25,851 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:14:25,881 ERROR [apiautotest] [driver.py (get_screenshot_as_file:190] - 截图并保存失败，报错信息为Message: An unknown server-side error occurred while processing the command. Original error: Cannot read properties of null (reading 'jwproxy')
+
+2023-03-28 17:14:26,059 ERROR [apiautotest] [driver.py (get_screenshot_as_file:190] - 截图并保存失败，报错信息为Message: A session is either terminated or not started
+
+2023-03-28 17:14:27,214 INFO [apiautotest] [driver.py (quit:113] - driver退出成功
+2023-03-28 17:22:37,378 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("同意")')
+2023-03-28 17:22:38,220 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:22:38,761 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '同意按钮', 'type': 'uiautomator', 'value': 'text("同意")'}点击成功
+2023-03-28 17:22:38,761 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("进入首页")')
+2023-03-28 17:22:39,060 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:22:49,752 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:22:49,761 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '进入首页', 'type': 'uiautomator', 'value': 'text("进入首页")'}点击成功
+2023-03-28 17:22:49,761 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('xpath', "//*[@text='帐号密码登录']")
+2023-03-28 17:22:51,730 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:22:51,746 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '帐号密码登录', 'type': 'xpath', 'value': "//*[@text='帐号密码登录']"}点击成功
+2023-03-28 17:22:52,395 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:22:52,691 INFO [apiautotest] [driver.py (get_screenshot_as_png:179] - 截图成功
+2023-03-28 17:22:53,021 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:22:53,540 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:22:54,007 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:22:54,451 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:22:54,900 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:22:55,345 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:22:55,838 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:22:56,294 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:01,391 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:05,754 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:06,408 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:06,967 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:07,495 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:08,066 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:08,449 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("同意")')
+2023-03-28 17:23:08,649 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:09,015 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:09,025 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '同意按钮', 'type': 'uiautomator', 'value': 'text("同意")'}点击成功
+2023-03-28 17:23:09,025 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("进入首页")')
+2023-03-28 17:23:09,675 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:20,876 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:21,257 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:21,271 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '进入首页', 'type': 'uiautomator', 'value': 'text("进入首页")'}点击成功
+2023-03-28 17:23:21,272 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('xpath', "//*[@text='帐号密码登录']")
+2023-03-28 17:23:21,720 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:23,026 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:23,330 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:23,345 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '帐号密码登录', 'type': 'xpath', 'value': "//*[@text='帐号密码登录']"}点击成功
+2023-03-28 17:23:23,843 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:24,170 INFO [apiautotest] [driver.py (get_screenshot_as_png:179] - 截图成功
+2023-03-28 17:23:24,575 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:25,178 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:25,466 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:25,762 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:26,054 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:26,304 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:26,544 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:26,772 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:27,009 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:27,265 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:27,509 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:27,754 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:28,028 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:33,946 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:34,549 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:38,722 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:39,090 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:39,528 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:39,855 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:40,517 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:40,893 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:41,230 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:41,416 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("同意")')
+2023-03-28 17:23:41,578 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:42,125 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:42,460 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:42,473 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '同意按钮', 'type': 'uiautomator', 'value': 'text("同意")'}点击成功
+2023-03-28 17:23:42,473 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("进入首页")')
+2023-03-28 17:23:42,955 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:43,235 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:54,812 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:55,157 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:55,499 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:55,513 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '进入首页', 'type': 'uiautomator', 'value': 'text("进入首页")'}点击成功
+2023-03-28 17:23:55,513 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('xpath', "//*[@text='帐号密码登录']")
+2023-03-28 17:23:55,995 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:56,329 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:57,223 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:57,520 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:57,798 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:57,815 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '帐号密码登录', 'type': 'xpath', 'value': "//*[@text='帐号密码登录']"}点击成功
+2023-03-28 17:23:58,210 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:58,541 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:58,929 INFO [apiautotest] [driver.py (get_screenshot_as_png:179] - 截图成功
+2023-03-28 17:23:59,482 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:23:59,860 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:00,174 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:00,452 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:00,729 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:01,015 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:01,293 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:01,539 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:01,793 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:02,028 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:02,259 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:02,505 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:02,750 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:03,000 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:03,314 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:04,101 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:04,378 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:09,708 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:10,117 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:10,473 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:15,886 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:16,303 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:16,781 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:17,174 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:17,610 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:18,003 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:18,405 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:18,662 ERROR [apiautotest] [driver.py (get_screenshot_as_file:190] - 截图并保存失败，报错信息为Message: A session is either terminated or not started
+
+2023-03-28 17:24:18,937 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:24:18,971 ERROR [apiautotest] [driver.py (get_screenshot_as_file:190] - 截图并保存失败，报错信息为Message: An unknown server-side error occurred while processing the command. Original error: Cannot read properties of null (reading 'jwproxy')
+
+2023-03-28 17:24:19,151 ERROR [apiautotest] [driver.py (get_screenshot_as_file:190] - 截图并保存失败，报错信息为Message: A session is either terminated or not started
+
+2023-03-28 17:24:20,613 INFO [apiautotest] [driver.py (quit:113] - driver退出成功
+2023-03-28 17:34:10,573 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("同意")')
+2023-03-28 17:34:11,559 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:11,572 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '同意按钮', 'type': 'uiautomator', 'value': 'text("同意")'}点击成功
+2023-03-28 17:34:11,572 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("进入首页")')
+2023-03-28 17:34:23,227 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:23,236 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '进入首页', 'type': 'uiautomator', 'value': 'text("进入首页")'}点击成功
+2023-03-28 17:34:23,236 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('xpath', "//*[@text='帐号密码登录']")
+2023-03-28 17:34:25,071 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:25,089 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '帐号密码登录', 'type': 'xpath', 'value': "//*[@text='帐号密码登录']"}点击成功
+2023-03-28 17:34:25,985 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:26,284 INFO [apiautotest] [driver.py (get_screenshot_as_png:179] - 截图成功
+2023-03-28 17:34:26,640 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:27,111 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:27,573 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:28,018 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:28,471 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:28,961 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:29,419 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:29,883 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:34,496 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:39,459 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:40,050 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:40,616 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:41,147 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:41,671 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:42,197 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("同意")')
+2023-03-28 17:34:42,236 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:42,579 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:42,591 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '同意按钮', 'type': 'uiautomator', 'value': 'text("同意")'}点击成功
+2023-03-28 17:34:42,591 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("进入首页")')
+2023-03-28 17:34:43,086 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:55,349 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:55,801 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:55,812 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '进入首页', 'type': 'uiautomator', 'value': 'text("进入首页")'}点击成功
+2023-03-28 17:34:55,813 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('xpath', "//*[@text='帐号密码登录']")
+2023-03-28 17:34:56,430 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:58,062 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:58,401 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:34:58,419 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '帐号密码登录', 'type': 'xpath', 'value': "//*[@text='帐号密码登录']"}点击成功
+2023-03-28 17:34:59,169 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:00,118 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:00,967 INFO [apiautotest] [driver.py (get_screenshot_as_png:179] - 截图成功
+2023-03-28 17:35:01,386 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:01,758 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:02,226 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:02,632 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:03,391 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:03,870 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:04,176 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:04,503 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:04,906 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:05,190 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:05,454 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:05,766 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:10,812 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:11,209 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:15,570 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:15,902 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:16,322 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:16,810 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:17,256 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:17,678 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:18,133 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:18,317 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("同意")')
+2023-03-28 17:35:18,802 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:19,931 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:20,394 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:20,405 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '同意按钮', 'type': 'uiautomator', 'value': 'text("同意")'}点击成功
+2023-03-28 17:35:20,405 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("进入首页")')
+2023-03-28 17:35:20,955 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:21,329 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:34,259 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:34,624 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:35,158 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:35,171 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '进入首页', 'type': 'uiautomator', 'value': 'text("进入首页")'}点击成功
+2023-03-28 17:35:35,171 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('xpath', "//*[@text='帐号密码登录']")
+2023-03-28 17:35:35,696 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:36,000 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:37,142 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:37,567 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:37,929 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:37,941 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '帐号密码登录', 'type': 'xpath', 'value': "//*[@text='帐号密码登录']"}点击成功
+2023-03-28 17:35:38,397 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:38,750 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:39,268 INFO [apiautotest] [driver.py (get_screenshot_as_png:179] - 截图成功
+2023-03-28 17:35:40,241 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:40,555 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:40,889 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:41,582 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:42,175 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:42,471 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:42,732 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:42,999 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:43,234 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:43,482 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:43,742 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:43,978 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:44,609 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:45,032 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:45,428 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:45,773 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:52,209 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:52,527 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:35:52,890 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:36:00,803 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:36:01,168 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:36:01,591 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:36:02,006 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:36:02,401 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:36:02,843 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:36:02,909 ERROR [apiautotest] [driver.py (get_screenshot_as_file:190] - 截图并保存失败，报错信息为Message: An unknown server-side error occurred while processing the command. Original error: Cannot read properties of null (reading 'jwproxy')
+
+2023-03-28 17:36:02,915 ERROR [apiautotest] [driver.py (get_screenshot_as_file:190] - 截图并保存失败，报错信息为Message: An unknown server-side error occurred while processing the command. Original error: Cannot read properties of null (reading 'jwproxy')
+
+2023-03-28 17:36:03,054 ERROR [apiautotest] [driver.py (get_screenshot_as_file:190] - 截图并保存失败，报错信息为Message: A session is either terminated or not started
+
+2023-03-28 17:36:04,459 INFO [apiautotest] [driver.py (quit:113] - driver退出成功
+2023-03-28 17:36:39,058 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("同意")')
+2023-03-28 17:36:39,819 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:36:39,860 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '同意按钮', 'type': 'uiautomator', 'value': 'text("同意")'}点击成功
+2023-03-28 17:36:39,860 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("进入首页")')
+2023-03-28 17:36:51,714 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:36:51,725 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '进入首页', 'type': 'uiautomator', 'value': 'text("进入首页")'}点击成功
+2023-03-28 17:36:51,725 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('xpath', "//*[@text='帐号密码登录']")
+2023-03-28 17:36:53,537 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:36:53,556 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '帐号密码登录', 'type': 'xpath', 'value': "//*[@text='帐号密码登录']"}点击成功
+2023-03-28 17:36:54,158 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:36:54,428 INFO [apiautotest] [driver.py (get_screenshot_as_png:179] - 截图成功
+2023-03-28 17:36:54,744 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:36:55,252 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:36:55,719 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:36:56,204 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:36:56,630 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:36:57,083 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:36:57,537 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:36:57,976 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:37:04,208 ERROR [apiautotest] [driver.py (get_screenshot_as_file:190] - 截图并保存失败，报错信息为Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: read ECONNRESET
+
+2023-03-28 17:37:05,490 ERROR [apiautotest] [driver.py (quit:115] - driver退出失败，报错信息为Message: A session is either terminated or not started
+
+2023-03-28 17:47:02,038 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("同意")')
+2023-03-28 17:47:02,804 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:02,844 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '同意按钮', 'type': 'uiautomator', 'value': 'text("同意")'}点击成功
+2023-03-28 17:47:02,844 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("进入首页")')
+2023-03-28 17:47:13,961 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:13,971 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '进入首页', 'type': 'uiautomator', 'value': 'text("进入首页")'}点击成功
+2023-03-28 17:47:13,971 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('xpath', "//*[@text='帐号密码登录']")
+2023-03-28 17:47:16,066 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:16,076 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '帐号密码登录', 'type': 'xpath', 'value': "//*[@text='帐号密码登录']"}点击成功
+2023-03-28 17:47:16,077 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('id', 'com.douban.frodo:id/input_user_name')
+2023-03-28 17:47:17,127 INFO [apiautotest] [driver.py (find_element:53] - 查找{'name': '输入用户名', 'type': 'id', 'value': 'com.douban.frodo:id/input_user_name'}元素成功
+2023-03-28 17:47:17,361 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:18,446 INFO [apiautotest] [driver.py (send_keys:86] - 元素{'name': '输入用户名', 'type': 'id', 'value': 'com.douban.frodo:id/input_user_name'}输入文本内容1234成功
+2023-03-28 17:47:18,446 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'resourceId("com.douban.frodo:id/input_password")')
+2023-03-28 17:47:18,687 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:18,955 INFO [apiautotest] [driver.py (find_element:53] - 查找{'name': '输入密码', 'type': 'uiautomator', 'value': 'resourceId("com.douban.frodo:id/input_password")'}元素成功
+2023-03-28 17:47:19,210 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:19,862 INFO [apiautotest] [driver.py (send_keys:86] - 元素{'name': '输入密码', 'type': 'uiautomator', 'value': 'resourceId("com.douban.frodo:id/input_password")'}输入文本内容mima成功
+2023-03-28 17:47:19,862 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("登录")')
+2023-03-28 17:47:20,148 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:20,663 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:20,677 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '登录按钮', 'type': 'uiautomator', 'value': 'text("登录")'}点击成功
+2023-03-28 17:47:20,768 INFO [apiautotest] [driver.py (page_contains:104] - 元素源码中包含登录文本
+2023-03-28 17:47:21,268 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:21,800 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:22,304 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:22,899 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:23,450 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:23,929 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:24,422 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:24,894 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:25,399 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:30,313 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:34,465 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:35,054 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:35,607 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:36,183 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:36,717 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:37,137 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("同意")')
+2023-03-28 17:47:37,297 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:37,670 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:37,684 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '同意按钮', 'type': 'uiautomator', 'value': 'text("同意")'}点击成功
+2023-03-28 17:47:37,685 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("进入首页")')
+2023-03-28 17:47:38,396 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:49,356 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:49,723 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:49,736 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '进入首页', 'type': 'uiautomator', 'value': 'text("进入首页")'}点击成功
+2023-03-28 17:47:49,737 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('xpath', "//*[@text='帐号密码登录']")
+2023-03-28 17:47:50,208 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:51,644 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:51,948 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:51,963 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '帐号密码登录', 'type': 'xpath', 'value': "//*[@text='帐号密码登录']"}点击成功
+2023-03-28 17:47:51,964 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('id', 'com.douban.frodo:id/input_user_name')
+2023-03-28 17:47:52,420 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:53,240 INFO [apiautotest] [driver.py (find_element:53] - 查找{'name': '输入用户名', 'type': 'id', 'value': 'com.douban.frodo:id/input_user_name'}元素成功
+2023-03-28 17:47:53,685 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:54,054 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:54,349 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:55,110 INFO [apiautotest] [driver.py (send_keys:86] - 元素{'name': '输入用户名', 'type': 'id', 'value': 'com.douban.frodo:id/input_user_name'}输入文本内容18812341234成功
+2023-03-28 17:47:55,111 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'resourceId("com.douban.frodo:id/input_password")')
+2023-03-28 17:47:55,372 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:55,614 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:55,626 INFO [apiautotest] [driver.py (find_element:53] - 查找{'name': '输入密码', 'type': 'uiautomator', 'value': 'resourceId("com.douban.frodo:id/input_password")'}元素成功
+2023-03-28 17:47:55,875 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:56,140 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:56,542 INFO [apiautotest] [driver.py (send_keys:86] - 元素{'name': '输入密码', 'type': 'uiautomator', 'value': 'resourceId("com.douban.frodo:id/input_password")'}输入文本内容yaoyao成功
+2023-03-28 17:47:56,543 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("登录")')
+2023-03-28 17:47:56,810 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:57,112 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:57,426 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:57,441 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '登录按钮', 'type': 'uiautomator', 'value': 'text("登录")'}点击成功
+2023-03-28 17:47:57,998 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:58,474 INFO [apiautotest] [driver.py (page_contains:104] - 元素源码中包含登录文本
+2023-03-28 17:47:58,900 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:59,281 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:47:59,625 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:00,015 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:00,395 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:00,740 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:01,062 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:01,334 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:01,619 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:01,905 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:02,209 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:02,485 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:03,040 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:03,360 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:03,658 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:03,965 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:09,204 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:09,588 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:15,418 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:15,856 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:16,228 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:16,652 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:17,062 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:17,471 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:17,970 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("同意")')
+2023-03-28 17:48:18,173 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:18,618 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:19,020 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:19,428 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:19,438 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '同意按钮', 'type': 'uiautomator', 'value': 'text("同意")'}点击成功
+2023-03-28 17:48:19,438 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("进入首页")')
+2023-03-28 17:48:19,918 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:20,253 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:31,622 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:31,961 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:32,313 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:32,324 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '进入首页', 'type': 'uiautomator', 'value': 'text("进入首页")'}点击成功
+2023-03-28 17:48:32,325 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('xpath', "//*[@text='帐号密码登录']")
+2023-03-28 17:48:32,898 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:33,436 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:34,327 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:34,628 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:34,909 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:34,922 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '帐号密码登录', 'type': 'xpath', 'value': "//*[@text='帐号密码登录']"}点击成功
+2023-03-28 17:48:34,923 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('id', 'com.douban.frodo:id/input_user_name')
+2023-03-28 17:48:35,319 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:35,738 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:36,256 INFO [apiautotest] [driver.py (find_element:53] - 查找{'name': '输入用户名', 'type': 'id', 'value': 'com.douban.frodo:id/input_user_name'}元素成功
+2023-03-28 17:48:36,552 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:36,785 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:37,045 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:37,309 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:37,538 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:38,095 INFO [apiautotest] [driver.py (send_keys:86] - 元素{'name': '输入用户名', 'type': 'id', 'value': 'com.douban.frodo:id/input_user_name'}输入文本内容18812341234成功
+2023-03-28 17:48:38,096 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'resourceId("com.douban.frodo:id/input_password")')
+2023-03-28 17:48:38,352 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:38,610 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:38,848 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:38,859 INFO [apiautotest] [driver.py (find_element:53] - 查找{'name': '输入密码', 'type': 'uiautomator', 'value': 'resourceId("com.douban.frodo:id/input_password")'}元素成功
+2023-03-28 17:48:39,105 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:39,361 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:39,618 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:39,860 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:40,007 INFO [apiautotest] [driver.py (send_keys:86] - 元素{'name': '输入密码', 'type': 'uiautomator', 'value': 'resourceId("com.douban.frodo:id/input_password")'}输入文本内容mima成功
+2023-03-28 17:48:40,008 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("登录")')
+2023-03-28 17:48:40,305 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:40,561 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:40,852 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:41,141 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:41,158 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '登录按钮', 'type': 'uiautomator', 'value': 'text("登录")'}点击成功
+2023-03-28 17:48:41,482 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:41,789 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:42,211 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:42,845 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:43,268 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:44,360 INFO [apiautotest] [driver.py (page_contains:104] - 元素源码中包含首页文本
+2023-03-28 17:48:44,814 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:45,248 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:45,692 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:46,343 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:46,964 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:47,603 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:48,479 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:49,175 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:49,792 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:50,402 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:50,967 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:51,530 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:52,083 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:52,645 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:53,290 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:53,929 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:48:59,998 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:49:00,434 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:49:00,841 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:49:05,512 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:49:05,853 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:49:06,243 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:49:06,585 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:49:06,913 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:49:07,261 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:49:07,624 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:49:08,123 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:49:08,380 ERROR [apiautotest] [driver.py (get_screenshot_as_file:190] - 截图并保存失败，报错信息为Message: A session is either terminated or not started
+
+2023-03-28 17:49:08,649 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 17:49:08,684 ERROR [apiautotest] [driver.py (get_screenshot_as_file:190] - 截图并保存失败，报错信息为Message: An unknown server-side error occurred while processing the command. Original error: Cannot read properties of null (reading 'jwproxy')
+
+2023-03-28 17:49:08,858 ERROR [apiautotest] [driver.py (get_screenshot_as_file:190] - 截图并保存失败，报错信息为Message: A session is either terminated or not started
+
+2023-03-28 17:49:10,021 INFO [apiautotest] [driver.py (quit:113] - driver退出成功
+2023-03-28 19:14:21,491 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("同意")')
+2023-03-28 19:14:22,130 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:22,704 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '同意按钮', 'type': 'uiautomator', 'value': 'text("同意")'}点击成功
+2023-03-28 19:14:22,704 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("进入首页")')
+2023-03-28 19:14:23,150 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:34,618 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:34,632 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '进入首页', 'type': 'uiautomator', 'value': 'text("进入首页")'}点击成功
+2023-03-28 19:14:34,633 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('xpath', "//*[@text='帐号密码登录']")
+2023-03-28 19:14:36,225 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:36,259 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '帐号密码登录', 'type': 'xpath', 'value': "//*[@text='帐号密码登录']"}点击成功
+2023-03-28 19:14:36,260 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('id', 'com.douban.frodo:id/input_user_name')
+2023-03-28 19:14:37,327 INFO [apiautotest] [driver.py (find_element:53] - 查找{'name': '输入用户名', 'type': 'id', 'value': 'com.douban.frodo:id/input_user_name'}元素成功
+2023-03-28 19:14:37,626 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:38,711 INFO [apiautotest] [driver.py (send_keys:86] - 元素{'name': '输入用户名', 'type': 'id', 'value': 'com.douban.frodo:id/input_user_name'}输入文本内容1234成功
+2023-03-28 19:14:38,712 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'resourceId("com.douban.frodo:id/input_password")')
+2023-03-28 19:14:39,113 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:39,222 INFO [apiautotest] [driver.py (find_element:53] - 查找{'name': '输入密码', 'type': 'uiautomator', 'value': 'resourceId("com.douban.frodo:id/input_password")'}元素成功
+2023-03-28 19:14:39,864 INFO [apiautotest] [driver.py (send_keys:86] - 元素{'name': '输入密码', 'type': 'uiautomator', 'value': 'resourceId("com.douban.frodo:id/input_password")'}输入文本内容q1w2e3r4@@成功
+2023-03-28 19:14:39,865 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("登录")')
+2023-03-28 19:14:40,178 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:40,686 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:40,701 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '登录按钮', 'type': 'uiautomator', 'value': 'text("登录")'}点击成功
+2023-03-28 19:14:40,821 INFO [apiautotest] [driver.py (page_contains:104] - 元素源码中包含登录文本
+2023-03-28 19:14:41,401 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:41,945 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:42,565 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:43,195 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:43,695 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:44,177 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:44,693 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:45,182 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:45,729 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:50,977 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:55,346 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:55,949 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:56,496 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:57,065 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:57,642 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:58,016 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("同意")')
+2023-03-28 19:14:58,244 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:58,679 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:14:58,694 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '同意按钮', 'type': 'uiautomator', 'value': 'text("同意")'}点击成功
+2023-03-28 19:14:58,694 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("进入首页")')
+2023-03-28 19:14:59,413 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:10,868 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:11,260 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:11,274 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '进入首页', 'type': 'uiautomator', 'value': 'text("进入首页")'}点击成功
+2023-03-28 19:15:11,274 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('xpath', "//*[@text='帐号密码登录']")
+2023-03-28 19:15:11,719 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:13,170 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:13,492 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:13,505 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '帐号密码登录', 'type': 'xpath', 'value': "//*[@text='帐号密码登录']"}点击成功
+2023-03-28 19:15:13,506 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('id', 'com.douban.frodo:id/input_user_name')
+2023-03-28 19:15:13,957 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:14,446 INFO [apiautotest] [driver.py (find_element:53] - 查找{'name': '输入用户名', 'type': 'id', 'value': 'com.douban.frodo:id/input_user_name'}元素成功
+2023-03-28 19:15:14,746 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:15,089 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:15,435 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:16,204 INFO [apiautotest] [driver.py (send_keys:86] - 元素{'name': '输入用户名', 'type': 'id', 'value': 'com.douban.frodo:id/input_user_name'}输入文本内容2981727908@qq.com成功
+2023-03-28 19:15:16,204 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'resourceId("com.douban.frodo:id/input_password")')
+2023-03-28 19:15:16,459 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:16,680 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:16,705 INFO [apiautotest] [driver.py (find_element:53] - 查找{'name': '输入密码', 'type': 'uiautomator', 'value': 'resourceId("com.douban.frodo:id/input_password")'}元素成功
+2023-03-28 19:15:16,938 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:17,209 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:17,567 INFO [apiautotest] [driver.py (send_keys:86] - 元素{'name': '输入密码', 'type': 'uiautomator', 'value': 'resourceId("com.douban.frodo:id/input_password")'}输入文本内容yaoyao成功
+2023-03-28 19:15:17,567 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("登录")')
+2023-03-28 19:15:17,831 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:18,143 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:18,477 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:18,493 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '登录按钮', 'type': 'uiautomator', 'value': 'text("登录")'}点击成功
+2023-03-28 19:15:18,893 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:19,207 INFO [apiautotest] [driver.py (page_contains:104] - 元素源码中包含登录文本
+2023-03-28 19:15:19,561 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:19,910 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:20,268 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:20,658 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:21,024 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:21,333 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:21,670 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:21,962 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:22,351 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:22,641 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:22,951 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:23,238 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:23,535 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:23,899 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:24,230 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:24,604 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:29,590 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:29,981 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:35,752 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:36,265 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:36,658 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:37,054 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:37,469 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:37,904 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:38,366 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("同意")')
+2023-03-28 19:15:38,374 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:38,849 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:39,419 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:39,844 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:39,858 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '同意按钮', 'type': 'uiautomator', 'value': 'text("同意")'}点击成功
+2023-03-28 19:15:39,858 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("进入首页")')
+2023-03-28 19:15:40,422 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:40,752 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:52,862 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:53,216 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:53,601 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:53,613 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '进入首页', 'type': 'uiautomator', 'value': 'text("进入首页")'}点击成功
+2023-03-28 19:15:53,614 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('xpath', "//*[@text='帐号密码登录']")
+2023-03-28 19:15:54,118 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:54,439 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:55,484 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:55,765 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:56,080 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:56,090 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '帐号密码登录', 'type': 'xpath', 'value': "//*[@text='帐号密码登录']"}点击成功
+2023-03-28 19:15:56,091 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('id', 'com.douban.frodo:id/input_user_name')
+2023-03-28 19:15:56,530 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:56,935 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:57,025 INFO [apiautotest] [driver.py (find_element:53] - 查找{'name': '输入用户名', 'type': 'id', 'value': 'com.douban.frodo:id/input_user_name'}元素成功
+2023-03-28 19:15:57,297 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:57,529 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:57,904 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:58,194 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:58,727 INFO [apiautotest] [driver.py (send_keys:86] - 元素{'name': '输入用户名', 'type': 'id', 'value': 'com.douban.frodo:id/input_user_name'}输入文本内容2981727908@qq.com成功
+2023-03-28 19:15:58,728 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'resourceId("com.douban.frodo:id/input_password")')
+2023-03-28 19:15:59,075 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:59,313 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:59,540 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:15:59,551 INFO [apiautotest] [driver.py (find_element:53] - 查找{'name': '输入密码', 'type': 'uiautomator', 'value': 'resourceId("com.douban.frodo:id/input_password")'}元素成功
+2023-03-28 19:15:59,789 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:00,043 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:00,345 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:00,565 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:00,672 INFO [apiautotest] [driver.py (send_keys:86] - 元素{'name': '输入密码', 'type': 'uiautomator', 'value': 'resourceId("com.douban.frodo:id/input_password")'}输入文本内容q1w2e3r4@@成功
+2023-03-28 19:16:00,672 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("登录")')
+2023-03-28 19:16:00,959 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:01,328 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:01,675 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:01,966 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:01,981 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '登录按钮', 'type': 'uiautomator', 'value': 'text("登录")'}点击成功
+2023-03-28 19:16:02,406 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:02,786 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:04,025 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:04,393 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:04,777 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:05,133 INFO [apiautotest] [driver.py (page_contains:104] - 元素源码中包含首页文本
+2023-03-28 19:16:05,518 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:06,103 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:06,846 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:07,852 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:09,066 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:09,650 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:11,792 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:13,398 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:14,173 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:14,981 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:15,536 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:16,338 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:17,693 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:18,306 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:18,824 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:24,491 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:24,840 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:25,249 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:32,172 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:32,610 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:33,013 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:33,409 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:33,846 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:34,293 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:34,565 ERROR [apiautotest] [driver.py (get_screenshot_as_file:190] - 截图并保存失败，报错信息为Message: A session is either terminated or not started
+
+2023-03-28 19:16:34,839 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 19:16:34,889 ERROR [apiautotest] [driver.py (get_screenshot_as_file:190] - 截图并保存失败，报错信息为Message: An unknown server-side error occurred while processing the command. Original error: Cannot read properties of null (reading 'jwproxy')
+
+2023-03-28 19:16:35,053 ERROR [apiautotest] [driver.py (get_screenshot_as_file:190] - 截图并保存失败，报错信息为Message: A session is either terminated or not started
+
+2023-03-28 19:16:36,413 INFO [apiautotest] [driver.py (quit:113] - driver退出成功

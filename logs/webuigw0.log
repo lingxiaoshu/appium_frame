@@ -1,0 +1,55 @@
+2023-03-28 16:34:09,078 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("同意")')
+2023-03-28 16:34:09,383 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '同意按钮', 'type': 'uiautomator', 'value': 'text("同意")'}点击成功
+2023-03-28 16:34:09,383 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("进入首页")')
+2023-03-28 16:34:22,961 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '进入首页', 'type': 'uiautomator', 'value': 'text("进入首页")'}点击成功
+2023-03-28 16:34:22,962 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('xpath', "//*[@text='帐号密码登录']")
+2023-03-28 16:34:24,606 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '帐号密码登录', 'type': 'xpath', 'value': "//*[@text='帐号密码登录']"}点击成功
+2023-03-28 16:34:24,606 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('id', 'com.douban.frodo:id/input_user_name')
+2023-03-28 16:34:27,009 INFO [apiautotest] [driver.py (find_element:53] - 查找{'name': '输入用户名', 'type': 'id', 'value': 'com.douban.frodo:id/input_user_name'}元素成功
+2023-03-28 16:34:28,614 INFO [apiautotest] [driver.py (send_keys:86] - 元素{'name': '输入用户名', 'type': 'id', 'value': 'com.douban.frodo:id/input_user_name'}输入文本内容18812341234成功
+2023-03-28 16:34:28,614 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'resourceId("com.douban.frodo:id/input_password")')
+2023-03-28 16:34:29,123 INFO [apiautotest] [driver.py (find_element:53] - 查找{'name': '输入密码', 'type': 'uiautomator', 'value': 'resourceId("com.douban.frodo:id/input_password")'}元素成功
+2023-03-28 16:34:29,769 INFO [apiautotest] [driver.py (send_keys:86] - 元素{'name': '输入密码', 'type': 'uiautomator', 'value': 'resourceId("com.douban.frodo:id/input_password")'}输入文本内容mima成功
+2023-03-28 16:34:29,769 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("登录")')
+2023-03-28 16:34:30,295 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '登录按钮', 'type': 'uiautomator', 'value': 'text("登录")'}点击成功
+2023-03-28 16:34:33,508 INFO [apiautotest] [driver.py (page_contains:104] - 元素源码中包含首页文本
+2023-03-28 16:34:36,531 INFO [apiautotest] [driver.py (quit:113] - driver退出成功
+2023-03-28 16:41:03,080 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("同意")')
+2023-03-28 16:41:03,668 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 16:41:03,822 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '同意按钮', 'type': 'uiautomator', 'value': 'text("同意")'}点击成功
+2023-03-28 16:41:03,822 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("进入首页")')
+2023-03-28 16:41:17,015 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 16:41:17,027 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '进入首页', 'type': 'uiautomator', 'value': 'text("进入首页")'}点击成功
+2023-03-28 16:41:17,028 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('xpath', "//*[@text='帐号密码登录']")
+2023-03-28 16:41:19,006 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 16:41:19,017 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '帐号密码登录', 'type': 'xpath', 'value': "//*[@text='帐号密码登录']"}点击成功
+2023-03-28 16:41:19,017 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('id', 'com.douban.frodo:id/input_user_name')
+2023-03-28 16:41:20,360 INFO [apiautotest] [driver.py (find_element:53] - 查找{'name': '输入用户名', 'type': 'id', 'value': 'com.douban.frodo:id/input_user_name'}元素成功
+2023-03-28 16:41:20,791 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 16:41:21,827 INFO [apiautotest] [driver.py (send_keys:86] - 元素{'name': '输入用户名', 'type': 'id', 'value': 'com.douban.frodo:id/input_user_name'}输入文本内容18812341234成功
+2023-03-28 16:41:21,828 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'resourceId("com.douban.frodo:id/input_password")')
+2023-03-28 16:41:22,225 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 16:41:22,343 INFO [apiautotest] [driver.py (find_element:53] - 查找{'name': '输入密码', 'type': 'uiautomator', 'value': 'resourceId("com.douban.frodo:id/input_password")'}元素成功
+2023-03-28 16:41:23,003 INFO [apiautotest] [driver.py (send_keys:86] - 元素{'name': '输入密码', 'type': 'uiautomator', 'value': 'resourceId("com.douban.frodo:id/input_password")'}输入文本内容mima成功
+2023-03-28 16:41:23,003 INFO [apiautotest] [driver.py (get_by:159] - 元素的定位策略是('-android uiautomator', 'text("登录")')
+2023-03-28 16:41:23,394 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 16:41:23,532 INFO [apiautotest] [driver.py (click:77] - 元素{'name': '登录按钮', 'type': 'uiautomator', 'value': 'text("登录")'}点击成功
+2023-03-28 16:41:24,077 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 16:41:24,766 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 16:41:25,968 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 16:41:26,936 INFO [apiautotest] [driver.py (page_contains:104] - 元素源码中包含首页文本
+2023-03-28 16:41:27,686 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 16:41:28,633 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 16:41:29,910 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 16:41:30,984 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 16:41:32,097 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 16:41:33,034 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 16:41:38,722 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 16:41:44,370 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 16:41:45,075 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 16:41:45,778 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 16:41:46,400 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 16:41:47,110 INFO [apiautotest] [driver.py (get_screenshot_as_file:188] - 截图并保存成功
+2023-03-28 16:41:47,356 ERROR [apiautotest] [driver.py (get_screenshot_as_file:190] - 截图并保存失败，报错信息为Message: A session is either terminated or not started
+
+2023-03-28 16:41:48,823 INFO [apiautotest] [driver.py (quit:113] - driver退出成功

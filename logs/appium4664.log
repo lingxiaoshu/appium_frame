@@ -1,0 +1,373 @@
+2023-03-28 09:12:01:094 [Appium] Welcome to Appium v1.22.3
+2023-03-28 09:12:01:096 [Appium] Non-default server args:
+2023-03-28 09:12:01:097 [Appium]   port: 4664
+2023-03-28 09:12:01:097 [Appium]   logFile: E:\learning\python\pycharm\project\mobile_frame/logs/appium4664.log
+2023-03-28 09:12:01:097 [Appium]   chromedriverPort: 6854
+2023-03-28 09:12:01:098 [Appium] Deprecated server args:
+2023-03-28 09:12:01:099 [Appium]   --chromedriver-port => --default-capabilities
+2023-03-28 09:12:01:099 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2023-03-28 09:12:01:100 [Appium]   chromedriverPort: 6854
+2023-03-28 09:12:01:144 [Appium] Appium REST http interface listener started on 0.0.0.0:4664
+2023-03-28 09:12:01:161 [HTTP] Request idempotency key: 1b83543a-207c-4e30-8a0b-25d4bd7fbd69
+2023-03-28 09:12:01:184 [HTTP] --> POST /wd/hub/session
+2023-03-28 09:12:01:184 [HTTP] {"capabilities":{"firstMatch":[{"platformName":"android","appium:deviceName":"xxx","appium:udid":"127.0.0.1:62001","appium:app":"E:\\\\packages\\\\tools\\\\apk\\\\douban_7.0.apk","appium:noSign":true,"appium:unicodeKeyboard":true,"appium:resetKeyboard":true,"appium:newCommandTimeout":600,"appium:autoGrantPermissions":true,"appium:systemPort":5747}]},"desiredCapabilities":{"platformName":"android","deviceName":"xxx","udid":"127.0.0.1:62001","app":"E:\\\\packages\\\\tools\\\\apk\\\\douban_7.0.apk","noSign":true,"unicodeKeyboard":true,"resetKeyboard":true,"newCommandTimeout":600,"autoGrantPermissions":true,"systemPort":5747}}
+2023-03-28 09:12:01:187 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"android","deviceName":"xxx","udid":"127.0.0.1:62001","app":"E:\\\\packages\\\\tools\\\\apk\\\\douban_7.0.apk","noSign":true,"unicodeKeyboard":true,"resetKeyboard":true,"newCommandTimeout":600,"autoGrantPermissions":true,"systemPort":5747},null,{"firstMatch":[{"platformName":"android","appium:deviceName":"xxx","appium:udid":"127.0.0.1:62001","appium:app":"E:\\\\packages\\\\tools\\\\apk\\\\douban_7.0.apk","appium:noSign":true,"appium:unicodeKeyboard":true,"appium:resetKeyboard":true,"appium:newCommandTimeout":600,"appium:autoGrantPermissions":true,"appium:systemPort":5747}]}]
+2023-03-28 09:12:01:188 [BaseDriver] Event 'newSessionRequested' logged at 1679994721187 (17:12:01 GMT+0800 (中国标准时间))
+2023-03-28 09:12:01:192 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2023-03-28 09:12:01:192 [BaseDriver]   chromedriverPort
+2023-03-28 09:12:01:198 [Appium] 
+2023-03-28 09:12:01:198 [Appium] ======================================================================
+2023-03-28 09:12:01:199 [Appium]   DEPRECATION WARNING:
+2023-03-28 09:12:01:199 [Appium] 
+2023-03-28 09:12:01:199 [Appium]   The 'automationName' capability was not provided in the desired 
+2023-03-28 09:12:01:199 [Appium]   capabilities for this Android session
+2023-03-28 09:12:01:199 [Appium] 
+2023-03-28 09:12:01:200 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2023-03-28 09:12:01:200 [Appium]   UiAutomator2 Driver
+2023-03-28 09:12:01:200 [Appium] 
+2023-03-28 09:12:01:200 [Appium]   The next major version of Appium (2.x) will **require** the 
+2023-03-28 09:12:01:200 [Appium]   'automationName' capability to be set for all sessions on all 
+2023-03-28 09:12:01:201 [Appium]   platforms
+2023-03-28 09:12:01:201 [Appium] 
+2023-03-28 09:12:01:201 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2023-03-28 09:12:01:201 [Appium]   'automationName=UiAutomator1'
+2023-03-28 09:12:01:201 [Appium] 
+2023-03-28 09:12:01:201 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2023-03-28 09:12:01:201 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2023-03-28 09:12:01:202 [Appium] 
+2023-03-28 09:12:01:202 [Appium]   For more information about drivers, please visit 
+2023-03-28 09:12:01:202 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2023-03-28 09:12:01:202 [Appium]   'Drivers' menu
+2023-03-28 09:12:01:202 [Appium] 
+2023-03-28 09:12:01:202 [Appium] ======================================================================
+2023-03-28 09:12:01:202 [Appium] 
+2023-03-28 09:12:01:564 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2023-03-28 09:12:01:567 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2023-03-28 09:12:01:568 [BaseDriver] Creating session with W3C capabilities: {
+2023-03-28 09:12:01:568 [BaseDriver]   "alwaysMatch": {
+2023-03-28 09:12:01:568 [BaseDriver]     "platformName": "android",
+2023-03-28 09:12:01:568 [BaseDriver]     "appium:chromedriverPort": 6854,
+2023-03-28 09:12:01:568 [BaseDriver]     "appium:deviceName": "xxx",
+2023-03-28 09:12:01:568 [BaseDriver]     "appium:udid": "127.0.0.1:62001",
+2023-03-28 09:12:01:568 [BaseDriver]     "appium:app": "E:\\\\packages\\\\tools\\\\apk\\\\douban_7.0.apk",
+2023-03-28 09:12:01:568 [BaseDriver]     "appium:noSign": true,
+2023-03-28 09:12:01:569 [BaseDriver]     "appium:unicodeKeyboard": true,
+2023-03-28 09:12:01:569 [BaseDriver]     "appium:resetKeyboard": true,
+2023-03-28 09:12:01:569 [BaseDriver]     "appium:newCommandTimeout": 600,
+2023-03-28 09:12:01:570 [BaseDriver]     "appium:autoGrantPermissions": true,
+2023-03-28 09:12:01:570 [BaseDriver]     "appium:systemPort": 5747
+2023-03-28 09:12:01:570 [BaseDriver]   },
+2023-03-28 09:12:01:570 [BaseDriver]   "firstMatch": [
+2023-03-28 09:12:01:570 [BaseDriver]     {}
+2023-03-28 09:12:01:571 [BaseDriver]   ]
+2023-03-28 09:12:01:571 [BaseDriver] }
+2023-03-28 09:12:01:580 [BaseDriver] Session created with session id: 4750b607-d45a-4795-a172-6af2baf03a22
+2023-03-28 09:12:01:584 [BaseDriver] Using local app 'E:\\packages\\tools\\apk\\douban_7.0.apk'
+2023-03-28 09:12:01:585 [UiAutomator2] Checking whether app is actually present
+2023-03-28 09:12:01:594 [ADB] Found 1 'build-tools' folders under 'E:\program\android_sdk' (newest first):
+2023-03-28 09:12:01:595 [ADB]     E:/program/android_sdk/build-tools/28.0.3
+2023-03-28 09:12:01:595 [ADB] Using 'adb.exe' from 'E:\program\android_sdk\platform-tools\adb.exe'
+2023-03-28 09:12:01:596 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 start-server'
+2023-03-28 09:12:01:651 [AndroidDriver] Retrieving device list
+2023-03-28 09:12:01:651 [ADB] Trying to find a connected android device
+2023-03-28 09:12:01:652 [ADB] Getting connected devices
+2023-03-28 09:12:01:694 [ADB] Connected devices: [{"udid":"127.0.0.1:62001","state":"device"}]
+2023-03-28 09:12:01:695 [AndroidDriver] Using device: 127.0.0.1:62001
+2023-03-28 09:12:01:696 [ADB] Using 'adb.exe' from 'E:\program\android_sdk\platform-tools\adb.exe'
+2023-03-28 09:12:01:697 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 start-server'
+2023-03-28 09:12:01:737 [ADB] Setting device id to 127.0.0.1:62001
+2023-03-28 09:12:01:738 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell getprop ro.build.version.sdk'
+2023-03-28 09:12:01:796 [ADB] Current device property 'ro.build.version.sdk': 22
+2023-03-28 09:12:01:796 [ADB] Device API level: 22
+2023-03-28 09:12:01:796 [AndroidDriver] Parsing package and activity from app manifest
+2023-03-28 09:12:01:829 [ADB] Package name: 'com.douban.frodo'
+2023-03-28 09:12:01:829 [ADB] Main activity name: 'com.douban.frodo.activity.SplashActivity'
+2023-03-28 09:12:01:829 [AndroidDriver] Parsed package and activity are: com.douban.frodo/com.douban.frodo.activity.SplashActivity
+2023-03-28 09:12:01:830 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 wait-for-device'
+2023-03-28 09:12:01:873 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell echo ping'
+2023-03-28 09:12:01:920 [AndroidDriver] Pushing settings apk to device...
+2023-03-28 09:12:01:921 [ADB] Getting install status for io.appium.settings
+2023-03-28 09:12:01:921 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys package io.appium.settings'
+2023-03-28 09:12:01:983 [ADB] 'io.appium.settings' is installed
+2023-03-28 09:12:01:983 [ADB] Getting package info for 'io.appium.settings'
+2023-03-28 09:12:01:983 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys package io.appium.settings'
+2023-03-28 09:12:02:056 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+2023-03-28 09:12:02:056 [ADB] There is no need to install/upgrade 'C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2023-03-28 09:12:02:057 [ADB] Getting IDs of all 'io.appium.settings' processes
+2023-03-28 09:12:02:057 [ADB] Using ps-based PID detection
+2023-03-28 09:12:02:057 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell ps --help'
+2023-03-28 09:12:02:109 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell ps'
+2023-03-28 09:12:02:173 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2023-03-28 09:12:02:173 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell settings put secure mock_location 1'
+2023-03-28 09:12:02:895 [Logcat] Starting logs capture with command: E:\\program\\android_sdk\\platform-tools\\adb.exe -P 5037 -s 127.0.0.1\:62001 logcat -v threadtime
+2023-03-28 09:12:02:938 [AndroidDriver] Enabling Unicode keyboard support
+2023-03-28 09:12:02:939 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell settings get secure default_input_method'
+2023-03-28 09:12:03:772 [AndroidDriver] Unsetting previous IME io.appium.settings/.UnicodeIME
+2023-03-28 09:12:03:772 [AndroidDriver] Setting IME to 'io.appium.settings/.UnicodeIME'
+2023-03-28 09:12:03:772 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell ime enable io.appium.settings/.UnicodeIME'
+2023-03-28 09:12:04:514 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell ime set io.appium.settings/.UnicodeIME'
+2023-03-28 09:12:05:537 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 5747
+2023-03-28 09:12:05:541 [ADB] Forwarding system: 5747 to device: 6790
+2023-03-28 09:12:05:542 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 forward tcp:5747 tcp:6790'
+2023-03-28 09:12:05:632 [ADB] Getting install status for io.appium.uiautomator2.server
+2023-03-28 09:12:05:632 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys package io.appium.uiautomator2.server'
+2023-03-28 09:12:05:699 [ADB] 'io.appium.uiautomator2.server' is installed
+2023-03-28 09:12:05:699 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2023-03-28 09:12:05:700 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys package io.appium.uiautomator2.server'
+2023-03-28 09:12:06:014 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.27.0' >= '4.27.0')
+2023-03-28 09:12:06:015 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2023-03-28 09:12:06:015 [ADB] Checking app cert for C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk
+2023-03-28 09:12:06:050 [ADB] Using 'apksigner.jar' from 'E:\program\android_sdk\build-tools\28.0.3\lib\apksigner.jar'
+2023-03-28 09:12:06:051 [ADB] Starting apksigner: E:\\java\\jdk\\bin\\java.exe -Xmx1024M -Xss1m -jar E:\\program\\android_sdk\\build-tools\\28.0.3\\lib\\apksigner.jar verify --print-certs C:\\Users\\ChenHuaishu\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.27.0.apk
+2023-03-28 09:12:07:389 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2023-03-28 09:12:07:389 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2023-03-28 09:12:07:389 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2023-03-28 09:12:07:389 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2023-03-28 09:12:07:390 [ADB] 
+2023-03-28 09:12:07:390 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.27.0.apk'
+2023-03-28 09:12:07:390 [ADB] 'C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+2023-03-28 09:12:07:391 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2023-03-28 09:12:07:391 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys package io.appium.uiautomator2.server.test'
+2023-03-28 09:12:07:444 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2023-03-28 09:12:07:444 [ADB] Checking app cert for C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2023-03-28 09:12:07:449 [ADB] Starting apksigner: E:\\java\\jdk\\bin\\java.exe -Xmx1024M -Xss1m -jar E:\\program\\android_sdk\\build-tools\\28.0.3\\lib\\apksigner.jar verify --print-certs C:\\Users\\ChenHuaishu\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+2023-03-28 09:12:07:975 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2023-03-28 09:12:07:975 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2023-03-28 09:12:07:975 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2023-03-28 09:12:07:975 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2023-03-28 09:12:07:975 [ADB] 
+2023-03-28 09:12:07:976 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2023-03-28 09:12:07:976 [ADB] 'C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2023-03-28 09:12:07:976 [UiAutomator2] Server packages are not going to be (re)installed
+2023-03-28 09:12:07:979 [UiAutomator2] Waiting up to 30000ms for services to be available
+2023-03-28 09:12:07:979 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell pm list instrumentation'
+2023-03-28 09:12:08:538 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2023-03-28 09:12:08:539 [ADB] Getting install status for com.douban.frodo
+2023-03-28 09:12:08:539 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys package com.douban.frodo'
+2023-03-28 09:12:08:594 [ADB] 'com.douban.frodo' is installed
+2023-03-28 09:12:08:594 [ADB] Getting package info for 'com.douban.frodo'
+2023-03-28 09:12:08:594 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys package com.douban.frodo'
+2023-03-28 09:12:08:666 [ADB] The version name of the installed 'com.douban.frodo' is greater or equal to the application version name ('7.0.0' >= '7.0.0')
+2023-03-28 09:12:08:666 [ADB] There is no need to install/upgrade 'E:\\packages\\tools\\apk\\douban_7.0.apk'
+2023-03-28 09:12:08:666 [AndroidDriver] Performing fast reset on 'com.douban.frodo'
+2023-03-28 09:12:08:667 [ADB] Getting install status for com.douban.frodo
+2023-03-28 09:12:08:667 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys package com.douban.frodo'
+2023-03-28 09:12:08:735 [ADB] 'com.douban.frodo' is installed
+2023-03-28 09:12:08:735 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell am force-stop com.douban.frodo'
+2023-03-28 09:12:09:681 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell pm clear com.douban.frodo'
+2023-03-28 09:12:10:525 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys package com.douban.frodo'
+2023-03-28 09:12:10:583 [AndroidDriver] Performed fast reset on the installed 'com.douban.frodo' application (stop and clear)
+2023-03-28 09:12:10:584 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2023-03-28 09:12:10:595 [UiAutomator2] No obsolete sessions have been detected (read ECONNRESET)
+2023-03-28 09:12:10:595 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell am force-stop io.appium.uiautomator2.server.test'
+2023-03-28 09:12:11:324 [UiAutomator2] Starting UIAutomator2 server 4.27.0
+2023-03-28 09:12:11:325 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2023-03-28 09:12:11:325 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2023-03-28 09:12:11:325 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62001","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2023-03-28 09:12:11:338 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-03-28 09:12:11:340 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:5747/wd/hub/status] with no body
+2023-03-28 09:12:11:344 [WD Proxy] Error: read ECONNRESET
+2023-03-28 09:12:11:345 [WD Proxy]     at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+2023-03-28 09:12:12:078 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2023-03-28 09:12:12:347 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-03-28 09:12:12:347 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:5747/wd/hub/status] with no body
+2023-03-28 09:12:12:351 [WD Proxy] Error: read ECONNRESET
+2023-03-28 09:12:12:351 [WD Proxy]     at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+2023-03-28 09:12:13:352 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-03-28 09:12:13:353 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:5747/wd/hub/status] with no body
+2023-03-28 09:12:13:420 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2023-03-28 09:12:13:420 [UiAutomator2] The initialization of the instrumentation process took 2096ms
+2023-03-28 09:12:13:421 [WD Proxy] Matched '/session' to command name 'createSession'
+2023-03-28 09:12:13:421 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:5747/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromedriverPort":6854,"deviceName":"xxx","udid":"127.0.0.1:62001","app":"E:\\\\packages\\\\tools\\\\apk\\\\douban_7.0.apk","noSign":true,"unicodeKeyboard":true,"resetKeyboard":true,"newCommandTimeout":600,"autoGrantPermissions":true,"systemPort":5747},"platformName":"android","chromedriverPort":6854,"deviceName":"127.0.0.1:62001","udid":"127.0.0.1:62001","app":"E:\\\\packages\\\\tools\\\\apk\\\\douban_7.0.apk","noSign":true,"unicodeKeyboard":true,"resetKeyboard":true,"newCommandTimeout":600,"autoGrantPermissions":true,"systemPort":5747,"deviceUDID":"127.0.0.1:62001","appPackage":"com.douban.frodo"}],"alwaysMatch":{}}}
+2023-03-28 09:12:13:444 [WD Proxy] Got response with status 200: {"sessionId":"722d503d-c605-45f3-9f2a-a8c289d4deed","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromedriverPort":6854,"deviceName":"xxx","udid":"127.0.0.1:62001","app":"E:\\\\packages\\\\tools\\\\apk\\\\douban_7.0.apk","noSign":true,"unicodeKeyboard":true,"resetKeyboard":true,"newCommandTimeout":600,"autoGrantPermissions":true,"systemPort":5747},"platformName":"android","chromedriverPort":6854,"deviceName":"127.0.0.1:62001","udid":"127.0.0.1:62001","app":"E:\\\\packages\\\\tools\\\\apk\\\\douban_7.0.apk","noSign":true,"unicodeKeyboard":true,"resetKeyboard":true,"newCommandTimeout":600,"autoGrantPermissions":true,"systemPort":5747,"deviceUDID":"127.0.0.1:62001","appPackage":"com.douban.frodo"}],"alwaysMatch":{}},"sessionId":"722d503d-c605-45f3-9f2a-a8c289d4deed"}}
+2023-03-28 09:12:13:445 [WD Proxy] Determined the downstream protocol as 'W3C'
+2023-03-28 09:12:13:466 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:5747/wd/hub/session/722d503d-c605-45f3-9f2a-a8c289d4deed/appium/device/info] with no body
+2023-03-28 09:12:13:483 [WD Proxy] Got response with status 200: {"sessionId":"722d503d-c605-45f3-9f2a-a8c289d4deed","value":{"androidId":"00c2c6ed8ee21215","apiVersion":"22","bluetooth":{"state":"OFF"},"brand":"OPPO","carrierName":"CHINA MOBILE","displayDensity":320,"locale":"zh_CN","manufacturer":"OPPO","model":"OPPO R11","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":1048576,"linkUpstreamBandwidthKbps":1048576,"networkCapabilities":"NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_INTERNET,NET_CAPABILITY_TRUSTED","signalStrength":null,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"\"WiredSSID\"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":0,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"5.1.1","realDisplaySize":"900x1600","timeZone":"Asia/Shanghai"}}
+2023-03-28 09:12:13:483 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys window'
+2023-03-28 09:12:13:538 [AndroidDriver] Screen already unlocked, doing nothing
+2023-03-28 09:12:13:538 [UiAutomator2] Starting 'com.douban.frodo/com.douban.frodo.activity.SplashActivity and waiting for 'com.douban.frodo/com.douban.frodo.activity.SplashActivity'
+2023-03-28 09:12:13:539 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell am start -W -n com.douban.frodo/com.douban.frodo.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2023-03-28 09:12:15:954 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.douban.frodo' and activity: 'com.douban.frodo.activity.SplashActivity' to be focused
+2023-03-28 09:12:15:954 [ADB] Possible activities, to be checked: 'com.douban.frodo.activity.SplashActivity', 'com.douban.frodo.com.douban.frodo.activity.SplashActivity'
+2023-03-28 09:12:15:955 [ADB] Getting focused package and activity
+2023-03-28 09:12:15:955 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys window windows'
+2023-03-28 09:12:16:031 [ADB] Found package: 'com.douban.frodo' and fully qualified activity name : 'com.douban.frodo.activity.SplashActivity'
+2023-03-28 09:12:16:033 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:5747/wd/hub/session/722d503d-c605-45f3-9f2a-a8c289d4deed/appium/device/pixel_ratio] with no body
+2023-03-28 09:12:16:037 [WD Proxy] Got response with status 200: {"sessionId":"722d503d-c605-45f3-9f2a-a8c289d4deed","value":2}
+2023-03-28 09:12:16:038 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2023-03-28 09:12:16:039 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:5747/wd/hub/session/722d503d-c605-45f3-9f2a-a8c289d4deed/appium/device/system_bars] with no body
+2023-03-28 09:12:16:045 [WD Proxy] Got response with status 200: {"sessionId":"722d503d-c605-45f3-9f2a-a8c289d4deed","value":{"statusBar":50}}
+2023-03-28 09:12:16:045 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2023-03-28 09:12:16:045 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:5747/wd/hub/session/722d503d-c605-45f3-9f2a-a8c289d4deed/window/current/size] with no body
+2023-03-28 09:12:16:053 [WD Proxy] Got response with status 200: {"sessionId":"722d503d-c605-45f3-9f2a-a8c289d4deed","value":{"height":1600,"width":900}}
+2023-03-28 09:12:16:053 [Appium] New AndroidUiautomator2Driver session created successfully, session 4750b607-d45a-4795-a172-6af2baf03a22 added to master session list
+2023-03-28 09:12:16:055 [BaseDriver] Event 'newSessionStarted' logged at 1679994736054 (17:12:16 GMT+0800 (中国标准时间))
+2023-03-28 09:12:16:055 [W3C (4750b607)] Cached the protocol value 'W3C' for the new session 4750b607-d45a-4795-a172-6af2baf03a22
+2023-03-28 09:12:16:057 [W3C (4750b607)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromedriverPort":6854,"deviceName":"xxx","udid":"127.0.0.1:62001","app":"E:\\\\packages\\\\tools\\\\apk\\\\douban_7.0.apk","noSign":true,"unicodeKeyboard":true,"resetKeyboard":true,"newCommandTimeout":600,"autoGrantPermissions":true,"systemPort":5747},"platformName":"android","chromedriverPort":6854,"deviceName":"127.0.0.1:62001","udid":"127.0.0.1:62001","app":"E:\\\\packages\\\\tools\\\\apk\\\\douban_7.0.apk","noSign":true,"unicodeKeyboard":true,"resetKeyboard":true,"newCommandTimeout":600,"autoGrantPermissions":true,"systemPort":5747,"deviceUDID":"127.0.0.1:62001","appPackage":"com.douban.frodo","deviceApiLevel":22,"platformVersion":"5.1.1","deviceScreenSize":"900x1600","deviceScreenDensity":320,"deviceModel":"OPPO R11","deviceManufacturer":"OPPO","pixelRatio"...
+2023-03-28 09:12:16:060 [HTTP] <-- POST /wd/hub/session 200 14875 ms - 1166
+2023-03-28 09:12:16:061 [HTTP] 
+2023-03-28 09:12:16:063 [HTTP] --> POST /wd/hub/session/4750b607-d45a-4795-a172-6af2baf03a22/timeouts
+2023-03-28 09:12:16:063 [HTTP] {"implicit":30000}
+2023-03-28 09:12:16:066 [W3C (4750b607)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,30000,"4750b607-d45a-4795-a172-6af2baf03a22"]
+2023-03-28 09:12:16:066 [BaseDriver] W3C timeout argument: {"implicit":30000}}
+2023-03-28 09:12:16:067 [BaseDriver] Set implicit wait to 30000ms
+2023-03-28 09:12:16:067 [W3C (4750b607)] Responding to client with driver.timeouts() result: null
+2023-03-28 09:12:16:069 [HTTP] <-- POST /wd/hub/session/4750b607-d45a-4795-a172-6af2baf03a22/timeouts 200 5 ms - 14
+2023-03-28 09:12:16:069 [HTTP] 
+2023-03-28 09:12:16:189 [HTTP] --> GET /wd/hub/session/4750b607-d45a-4795-a172-6af2baf03a22/screenshot
+2023-03-28 09:12:16:190 [HTTP] {}
+2023-03-28 09:12:16:192 [W3C (4750b607)] Calling AppiumDriver.getScreenshot() with args: ["4750b607-d45a-4795-a172-6af2baf03a22"]
+2023-03-28 09:12:16:192 [WD Proxy] Matched '/screenshot' to command name 'getScreenshot'
+2023-03-28 09:12:16:193 [WD Proxy] Proxying [GET /screenshot] to [GET http://127.0.0.1:5747/wd/hub/session/722d503d-c605-45f3-9f2a-a8c289d4deed/screenshot] with no body
+2023-03-28 09:12:16:567 [WD Proxy] Got response with status 200: {"sessionId":"722d503d-c605-45f3-9f2a-a8c289d4deed","value":"iVBORw0KGgoAAAANSUhEUgAAA4QAAAZACAIAAACubRtpAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnOzdeXxW5YHo8edkISSBYFhlkUVQXBH1VutS96XjUm3HbtZdq9fWpYta23utzNip0Nt2Rturw1y1\ndZuxVFu0LrhvVcEOiiigiAKKIggCgRBCEs794yQvEUJIIPC8sd9v58Oc97znPXmILD+esyVPP/10\nAACAGApiDwAAgL9fYhQAgGjEKAAA0YhRAACiEaMAAEQjRgEAiEaMAgAQjRgFACAaMQoAQDRiFACA\naMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUAIBoxCgBANGIUAIBoxCgAANGIUQAAohGjAABE\nI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA0YhRAACiEaMAAEQjRgEAiEaMAgAQjRgFACAa\nMQoAQDRiFACAaMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUAIBoxCgBANGIUAIBoxCgAANGI\nUQAAohGjAABEI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA0YhRAACiEaMAAEQjRgEAiEaM\nAgAQjRgFACAaMQoAQDRiFACAaMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUAIBoxCgBANGIU\nAIBoxCgAANGIUQAAohGjAABEI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA0YhRAACiEaMA\nAEQjRgEAiEaMAgAQjRgFACAaMQoAQDRiFACAaMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUA\nIBoxCgBANGIUAIBoxCgAANGIUQAAohGjAABEI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA\n0YhRAACiEaMAAEQjRgEAiEaM...
+2023-03-28 09:12:16:569 [W3C (4750b607)] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAA4QAAAZACAIAAACubRtpAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnOzdeXxW5YHo8edkISSBYFhlkUVQXBH1VutS96XjUm3HbtZdq9fWpYta23utzNip0Nt2Rturw1y1\ndZuxVFu0LrhvVcEOiiigiAKKIggCgRBCEs794yQvEUJIIPC8sd9v58Oc97znPXmILD+esyVPP/10\nAACAGApiDwAAgL9fYhQAgGjEKAAA0YhRAACiEaMAAEQjRgEAiEaMAgAQjRgFACAaMQoAQDRiFACA\naMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUAIBoxCgBANGIUAIBoxCgAANGIUQAAohGjAABE\nI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA0YhRAACiEaMAAEQjRgEAiEaMAgAQjRgFACAa\nMQoAQDRiFACAaMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUAIBoxCgBANGIUAIBoxCgAANGI\nUQAAohGjAABEI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA0YhRAACiEaMAAEQjRgEAiEaM\nAgAQjRgFACAaMQoAQDRiFACAaMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUAIBoxCgBANGIU\nAIBoxCgAANGIUQAAohGjAABEI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA0YhRAACiEaMA\nAEQjRgEAiEaMAgAQjRgFACAaMQoAQDRiFACAaMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUA\nIBoxCgBANGIUAIBoxCgAANGIUQAAohGjAABEI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA\n0YhRAACiEaMAAEQjRgEAiEaMAgAQjRgFACAaMQoAQDRiFACAaMQoAADRiFEAAKIRowAARCNGAQCI\nRowCAB...
+2023-03-28 09:12:16:573 [HTTP] <-- GET /wd/hub/session/4750b607-d45a-4795-a172-6af2baf03a22/screenshot 200 382 ms - 251728
+2023-03-28 09:12:16:573 [HTTP] 
+2023-03-28 09:12:24:827 [HTTP] --> POST /wd/hub/session/4750b607-d45a-4795-a172-6af2baf03a22/appium/device/start_activity
+2023-03-28 09:12:24:828 [HTTP] {"appPackage":"com.douban.frodo","appActivity":"com.douban.frodo.activity.SplashActivity"}
+2023-03-28 09:12:24:836 [W3C (4750b607)] Calling AppiumDriver.startActivity() with args: ["com.douban.frodo","com.douban.frodo.activity.SplashActivity",null,null,null,null,null,null,null,null,null,"4750b607-d45a-4795-a172-6af2baf03a22"]
+2023-03-28 09:12:24:836 [AndroidDriver] Starting package 'com.douban.frodo' and activity 'com.douban.frodo.activity.SplashActivity'
+2023-03-28 09:12:24:837 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell am start -W -n com.douban.frodo/com.douban.frodo.activity.SplashActivity -S'
+2023-03-28 09:12:27:313 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.douban.frodo' and activity: 'com.douban.frodo.activity.SplashActivity' to be focused
+2023-03-28 09:12:27:314 [ADB] Possible activities, to be checked: 'com.douban.frodo.activity.SplashActivity', 'com.douban.frodo.com.douban.frodo.activity.SplashActivity'
+2023-03-28 09:12:27:314 [ADB] Getting focused package and activity
+2023-03-28 09:12:27:314 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys window windows'
+2023-03-28 09:12:27:404 [ADB] Found package: 'com.douban.frodo' and fully qualified activity name : 'com.douban.frodo.activity.SplashActivity'
+2023-03-28 09:12:27:404 [W3C (4750b607)] Responding to client with driver.startActivity() result: null
+2023-03-28 09:12:27:407 [HTTP] <-- POST /wd/hub/session/4750b607-d45a-4795-a172-6af2baf03a22/appium/device/start_activity 200 2578 ms - 14
+2023-03-28 09:12:27:407 [HTTP] 
+2023-03-28 09:12:27:409 [HTTP] --> POST /wd/hub/session/4750b607-d45a-4795-a172-6af2baf03a22/appium/app/reset
+2023-03-28 09:12:27:409 [HTTP] {}
+2023-03-28 09:12:27:418 [W3C (4750b607)] Calling AppiumDriver.reset() with args: ["4750b607-d45a-4795-a172-6af2baf03a22"]
+2023-03-28 09:12:27:418 [ADB] Getting install status for com.douban.frodo
+2023-03-28 09:12:27:418 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys package com.douban.frodo'
+2023-03-28 09:12:27:482 [ADB] 'com.douban.frodo' is installed
+2023-03-28 09:12:27:482 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell am force-stop com.douban.frodo'
+2023-03-28 09:12:28:278 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell pm clear com.douban.frodo'
+2023-03-28 09:12:28:876 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys package com.douban.frodo'
+2023-03-28 09:12:28:934 [AndroidDriver] Performed fast reset on the installed 'com.douban.frodo' application (stop and clear)
+2023-03-28 09:12:28:935 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell am start -W -n com.douban.frodo/com.douban.frodo.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2023-03-28 09:12:31:968 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.douban.frodo' and activity: 'com.douban.frodo.activity.SplashActivity' to be focused
+2023-03-28 09:12:31:968 [ADB] Possible activities, to be checked: 'com.douban.frodo.activity.SplashActivity', 'com.douban.frodo.com.douban.frodo.activity.SplashActivity'
+2023-03-28 09:12:31:968 [ADB] Getting focused package and activity
+2023-03-28 09:12:31:969 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys window windows'
+2023-03-28 09:12:32:046 [ADB] Found package: 'com.douban.frodo' and fully qualified activity name : 'com.douban.frodo.activity.SplashActivity'
+2023-03-28 09:12:32:047 [W3C (4750b607)] Responding to client with driver.reset() result: null
+2023-03-28 09:12:32:048 [HTTP] <-- POST /wd/hub/session/4750b607-d45a-4795-a172-6af2baf03a22/appium/app/reset 200 4639 ms - 14
+2023-03-28 09:12:32:049 [HTTP] 
+2023-03-28 09:12:35:129 [HTTP] --> GET /wd/hub/session/4750b607-d45a-4795-a172-6af2baf03a22/screenshot
+2023-03-28 09:12:35:129 [HTTP] {}
+2023-03-28 09:12:35:131 [W3C (4750b607)] Calling AppiumDriver.getScreenshot() with args: ["4750b607-d45a-4795-a172-6af2baf03a22"]
+2023-03-28 09:12:35:133 [WD Proxy] Matched '/screenshot' to command name 'getScreenshot'
+2023-03-28 09:12:35:134 [WD Proxy] Proxying [GET /screenshot] to [GET http://127.0.0.1:5747/wd/hub/session/722d503d-c605-45f3-9f2a-a8c289d4deed/screenshot] with no body
+2023-03-28 09:12:35:624 [WD Proxy] Got response with status 200: {"sessionId":"722d503d-c605-45f3-9f2a-a8c289d4deed","value":"iVBORw0KGgoAAAANSUhEUgAAA4QAAAZACAIAAACubRtpAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnOzdeXxW5YHo8edkISSBYFhlkUVQXBH1VutS96XjUm3HbtZdq9fWpYta23utzNip0Nt2Rturw1y1\ndZuxVFu0LrhvVcEOiiigiAKKIggCgRBCEs794yQvEUJIIPC8sd9v58Oc97znPXmILD+esyVPP/10\nAACAGApiDwAAgL9fYhQAgGjEKAAA0YhRAACiEaMAAEQjRgEAiEaMAgAQjRgFACAaMQoAQDRiFACA\naMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUAIBoxCgBANGIUAIBoxCgAANGIUQAAohGjAABE\nI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA0YhRAACiEaMAAEQjRgEAiEaMAgAQjRgFACAa\nMQoAQDRiFACAaMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUAIBoxCgBANGIUAIBoxCgAANGI\nUQAAohGjAABEI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA0YhRAACiEaMAAEQjRgEAiEaM\nAgAQjRgFACAaMQoAQDRiFACAaMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUAIBoxCgBANGIU\nAIBoxCgAANGIUQAAohGjAABEI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA0YhRAACiEaMA\nAEQjRgEAiEaMAgAQjRgFACAaMQoAQDRiFACAaMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUA\nIBoxCgBANGIUAIBoxCgAANGIUQAAohGjAABEI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA\n0YhRAACiEaMAAEQjRgEAiEaM...
+2023-03-28 09:12:35:629 [W3C (4750b607)] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAA4QAAAZACAIAAACubRtpAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnOzdeXxW5YHo8edkISSBYFhlkUVQXBH1VutS96XjUm3HbtZdq9fWpYta23utzNip0Nt2Rturw1y1\ndZuxVFu0LrhvVcEOiiigiAKKIggCgRBCEs794yQvEUJIIPC8sd9v58Oc97znPXmILD+esyVPP/10\nAACAGApiDwAAgL9fYhQAgGjEKAAA0YhRAACiEaMAAEQjRgEAiEaMAgAQjRgFACAaMQoAQDRiFACA\naMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUAIBoxCgBANGIUAIBoxCgAANGIUQAAohGjAABE\nI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA0YhRAACiEaMAAEQjRgEAiEaMAgAQjRgFACAa\nMQoAQDRiFACAaMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUAIBoxCgBANGIUAIBoxCgAANGI\nUQAAohGjAABEI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA0YhRAACiEaMAAEQjRgEAiEaM\nAgAQjRgFACAaMQoAQDRiFACAaMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUAIBoxCgBANGIU\nAIBoxCgAANGIUQAAohGjAABEI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA0YhRAACiEaMA\nAEQjRgEAiEaMAgAQjRgFACAaMQoAQDRiFACAaMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUA\nIBoxCgBANGIUAIBoxCgAANGIUQAAohGjAABEI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA\n0YhRAACiEaMAAEQjRgEAiEaMAgAQjRgFACAaMQoAQDRiFACAaMQoAADRiFEAAKIRowAARCNGAQCI\nRowCAB...
+2023-03-28 09:12:35:634 [HTTP] <-- GET /wd/hub/session/4750b607-d45a-4795-a172-6af2baf03a22/screenshot 200 504 ms - 251728
+2023-03-28 09:12:35:634 [HTTP] 
+2023-03-28 09:12:44:046 [HTTP] --> POST /wd/hub/session/4750b607-d45a-4795-a172-6af2baf03a22/appium/device/start_activity
+2023-03-28 09:12:44:046 [HTTP] {"appPackage":"com.douban.frodo","appActivity":"com.douban.frodo.activity.SplashActivity"}
+2023-03-28 09:12:44:047 [W3C (4750b607)] Calling AppiumDriver.startActivity() with args: ["com.douban.frodo","com.douban.frodo.activity.SplashActivity",null,null,null,null,null,null,null,null,null,"4750b607-d45a-4795-a172-6af2baf03a22"]
+2023-03-28 09:12:44:047 [AndroidDriver] Starting package 'com.douban.frodo' and activity 'com.douban.frodo.activity.SplashActivity'
+2023-03-28 09:12:44:048 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell am start -W -n com.douban.frodo/com.douban.frodo.activity.SplashActivity -S'
+2023-03-28 09:12:46:554 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.douban.frodo' and activity: 'com.douban.frodo.activity.SplashActivity' to be focused
+2023-03-28 09:12:46:555 [ADB] Possible activities, to be checked: 'com.douban.frodo.activity.SplashActivity', 'com.douban.frodo.com.douban.frodo.activity.SplashActivity'
+2023-03-28 09:12:46:555 [ADB] Getting focused package and activity
+2023-03-28 09:12:46:556 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys window windows'
+2023-03-28 09:12:46:734 [ADB] Found package: 'com.douban.frodo' and fully qualified activity name : 'com.douban.frodo.activity.SplashActivity'
+2023-03-28 09:12:46:734 [W3C (4750b607)] Responding to client with driver.startActivity() result: null
+2023-03-28 09:12:46:736 [HTTP] <-- POST /wd/hub/session/4750b607-d45a-4795-a172-6af2baf03a22/appium/device/start_activity 200 2689 ms - 14
+2023-03-28 09:12:46:736 [HTTP] 
+2023-03-28 09:12:46:738 [HTTP] --> POST /wd/hub/session/4750b607-d45a-4795-a172-6af2baf03a22/appium/app/reset
+2023-03-28 09:12:46:739 [HTTP] {}
+2023-03-28 09:12:46:741 [W3C (4750b607)] Calling AppiumDriver.reset() with args: ["4750b607-d45a-4795-a172-6af2baf03a22"]
+2023-03-28 09:12:46:742 [ADB] Getting install status for com.douban.frodo
+2023-03-28 09:12:46:742 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys package com.douban.frodo'
+2023-03-28 09:12:46:837 [ADB] 'com.douban.frodo' is installed
+2023-03-28 09:12:46:837 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell am force-stop com.douban.frodo'
+2023-03-28 09:12:47:680 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell pm clear com.douban.frodo'
+2023-03-28 09:12:48:325 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys package com.douban.frodo'
+2023-03-28 09:12:48:389 [AndroidDriver] Performed fast reset on the installed 'com.douban.frodo' application (stop and clear)
+2023-03-28 09:12:48:389 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell am start -W -n com.douban.frodo/com.douban.frodo.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2023-03-28 09:12:50:379 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.douban.frodo' and activity: 'com.douban.frodo.activity.SplashActivity' to be focused
+2023-03-28 09:12:50:379 [ADB] Possible activities, to be checked: 'com.douban.frodo.activity.SplashActivity', 'com.douban.frodo.com.douban.frodo.activity.SplashActivity'
+2023-03-28 09:12:50:380 [ADB] Getting focused package and activity
+2023-03-28 09:12:50:380 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys window windows'
+2023-03-28 09:12:50:460 [ADB] Found package: 'com.douban.frodo' and fully qualified activity name : 'com.douban.frodo.activity.SplashActivity'
+2023-03-28 09:12:50:461 [W3C (4750b607)] Responding to client with driver.reset() result: null
+2023-03-28 09:12:50:462 [HTTP] <-- POST /wd/hub/session/4750b607-d45a-4795-a172-6af2baf03a22/appium/app/reset 200 3723 ms - 14
+2023-03-28 09:12:50:462 [HTTP] 
+2023-03-28 09:12:53:547 [HTTP] --> GET /wd/hub/session/4750b607-d45a-4795-a172-6af2baf03a22/screenshot
+2023-03-28 09:12:53:547 [HTTP] {}
+2023-03-28 09:12:53:547 [W3C (4750b607)] Calling AppiumDriver.getScreenshot() with args: ["4750b607-d45a-4795-a172-6af2baf03a22"]
+2023-03-28 09:12:53:548 [WD Proxy] Matched '/screenshot' to command name 'getScreenshot'
+2023-03-28 09:12:53:549 [WD Proxy] Proxying [GET /screenshot] to [GET http://127.0.0.1:5747/wd/hub/session/722d503d-c605-45f3-9f2a-a8c289d4deed/screenshot] with no body
+2023-03-28 09:12:53:922 [WD Proxy] Got response with status 200: {"sessionId":"722d503d-c605-45f3-9f2a-a8c289d4deed","value":"iVBORw0KGgoAAAANSUhEUgAAA4QAAAZACAIAAACubRtpAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnOzdeXxW5YHo8edkISSBYFhlkUVQXBH1VutS96XjUm3HbtZdq9fWpYta23utzNip0Nt2Rturw1y1\ndZuxVFu0LrhvVcEOiiigiAKKIggCgRBCEs794yQvEUJIIPC8sd9v58Oc97znPXmILD+esyVPP/10\nAACAGApiDwAAgL9fYhQAgGjEKAAA0YhRAACiEaMAAEQjRgEAiEaMAgAQjRgFACAaMQoAQDRiFACA\naMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUAIBoxCgBANGIUAIBoxCgAANGIUQAAohGjAABE\nI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA0YhRAACiEaMAAEQjRgEAiEaMAgAQjRgFACAa\nMQoAQDRiFACAaMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUAIBoxCgBANGIUAIBoxCgAANGI\nUQAAohGjAABEI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA0YhRAACiEaMAAEQjRgEAiEaM\nAgAQjRgFACAaMQoAQDRiFACAaMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUAIBoxCgBANGIU\nAIBoxCgAANGIUQAAohGjAABEI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA0YhRAACiEaMA\nAEQjRgEAiEaMAgAQjRgFACAaMQoAQDRiFACAaMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUA\nIBoxCgBANGIUAIBoxCgAANGIUQAAohGjAABEI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA\n0YhRAACiEaMAAEQjRgEAiEaM...
+2023-03-28 09:12:53:924 [W3C (4750b607)] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAA4QAAAZACAIAAACubRtpAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnOzdeXxW5YHo8edkISSBYFhlkUVQXBH1VutS96XjUm3HbtZdq9fWpYta23utzNip0Nt2Rturw1y1\ndZuxVFu0LrhvVcEOiiigiAKKIggCgRBCEs794yQvEUJIIPC8sd9v58Oc97znPXmILD+esyVPP/10\nAACAGApiDwAAgL9fYhQAgGjEKAAA0YhRAACiEaMAAEQjRgEAiEaMAgAQjRgFACAaMQoAQDRiFACA\naMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUAIBoxCgBANGIUAIBoxCgAANGIUQAAohGjAABE\nI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA0YhRAACiEaMAAEQjRgEAiEaMAgAQjRgFACAa\nMQoAQDRiFACAaMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUAIBoxCgBANGIUAIBoxCgAANGI\nUQAAohGjAABEI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA0YhRAACiEaMAAEQjRgEAiEaM\nAgAQjRgFACAaMQoAQDRiFACAaMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUAIBoxCgBANGIU\nAIBoxCgAANGIUQAAohGjAABEI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA0YhRAACiEaMA\nAEQjRgEAiEaMAgAQjRgFACAaMQoAQDRiFACAaMQoAADRiFEAAKIRowAARCNGAQCIRowCABCNGAUA\nIBoxCgBANGIUAIBoxCgAANGIUQAAohGjAABEI0YBAIhGjAIAEI0YBQAgGjEKAEA0YhQAgGjEKAAA\n0YhRAACiEaMAAEQjRgEAiEaMAgAQjRgFACAaMQoAQDRiFACAaMQoAADRiFEAAKIRowAARCNGAQCI\nRowCAB...
+2023-03-28 09:12:53:928 [HTTP] <-- GET /wd/hub/session/4750b607-d45a-4795-a172-6af2baf03a22/screenshot 200 380 ms - 251728
+2023-03-28 09:12:53:928 [HTTP] 
+2023-03-28 09:13:05:845 [HTTP] --> POST /wd/hub/session/4750b607-d45a-4795-a172-6af2baf03a22/appium/device/start_activity
+2023-03-28 09:13:05:846 [HTTP] {"appPackage":"com.douban.frodo","appActivity":"com.douban.frodo.activity.SplashActivity"}
+2023-03-28 09:13:05:847 [W3C (4750b607)] Calling AppiumDriver.startActivity() with args: ["com.douban.frodo","com.douban.frodo.activity.SplashActivity",null,null,null,null,null,null,null,null,null,"4750b607-d45a-4795-a172-6af2baf03a22"]
+2023-03-28 09:13:05:847 [AndroidDriver] Starting package 'com.douban.frodo' and activity 'com.douban.frodo.activity.SplashActivity'
+2023-03-28 09:13:05:847 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell am start -W -n com.douban.frodo/com.douban.frodo.activity.SplashActivity -S'
+2023-03-28 09:13:08:754 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.douban.frodo' and activity: 'com.douban.frodo.activity.SplashActivity' to be focused
+2023-03-28 09:13:08:754 [ADB] Possible activities, to be checked: 'com.douban.frodo.activity.SplashActivity', 'com.douban.frodo.com.douban.frodo.activity.SplashActivity'
+2023-03-28 09:13:08:755 [ADB] Getting focused package and activity
+2023-03-28 09:13:08:755 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys window windows'
+2023-03-28 09:13:08:823 [ADB] Found package: 'com.douban.frodo' and fully qualified activity name : 'com.douban.frodo.activity.SplashActivity'
+2023-03-28 09:13:08:824 [W3C (4750b607)] Responding to client with driver.startActivity() result: null
+2023-03-28 09:13:08:826 [HTTP] <-- POST /wd/hub/session/4750b607-d45a-4795-a172-6af2baf03a22/appium/device/start_activity 200 2980 ms - 14
+2023-03-28 09:13:08:826 [HTTP] 
+2023-03-28 09:13:08:828 [HTTP] --> POST /wd/hub/session/4750b607-d45a-4795-a172-6af2baf03a22/appium/app/reset
+2023-03-28 09:13:08:828 [HTTP] {}
+2023-03-28 09:13:08:829 [W3C (4750b607)] Calling AppiumDriver.reset() with args: ["4750b607-d45a-4795-a172-6af2baf03a22"]
+2023-03-28 09:13:08:829 [ADB] Getting install status for com.douban.frodo
+2023-03-28 09:13:08:830 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys package com.douban.frodo'
+2023-03-28 09:13:08:889 [ADB] 'com.douban.frodo' is installed
+2023-03-28 09:13:08:890 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell am force-stop com.douban.frodo'
+2023-03-28 09:13:09:717 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell pm clear com.douban.frodo'
+2023-03-28 09:13:10:394 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys package com.douban.frodo'
+2023-03-28 09:13:10:447 [AndroidDriver] Performed fast reset on the installed 'com.douban.frodo' application (stop and clear)
+2023-03-28 09:13:10:448 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell am start -W -n com.douban.frodo/com.douban.frodo.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2023-03-28 09:13:13:867 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.douban.frodo' and activity: 'com.douban.frodo.activity.SplashActivity' to be focused
+2023-03-28 09:13:13:867 [ADB] Possible activities, to be checked: 'com.douban.frodo.activity.SplashActivity', 'com.douban.frodo.com.douban.frodo.activity.SplashActivity'
+2023-03-28 09:13:13:867 [ADB] Getting focused package and activity
+2023-03-28 09:13:13:868 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell dumpsys window windows'
+2023-03-28 09:13:13:935 [ADB] Found package: 'com.douban.frodo' and fully qualified activity name : 'com.douban.frodo.activity.SplashActivity'
+2023-03-28 09:13:13:936 [W3C (4750b607)] Responding to client with driver.reset() result: null
+2023-03-28 09:13:13:938 [HTTP] <-- POST /wd/hub/session/4750b607-d45a-4795-a172-6af2baf03a22/appium/app/reset 200 5109 ms - 14
+2023-03-28 09:13:13:941 [HTTP] 
+2023-03-28 09:13:15:641 [Appium] Received SIGINT - shutting down
+2023-03-28 09:13:15:651 [Appium] Cleaning up 1 active session
+2023-03-28 09:13:15:652 [Appium] Closing session, cause was 'The process has received SIGINT signal'
+2023-03-28 09:13:15:652 [Appium] Removing session '4750b607-d45a-4795-a172-6af2baf03a22' from our master session list
+2023-03-28 09:13:15:654 [UiAutomator2] Deleting UiAutomator2 session
+2023-03-28 09:13:15:656 [UiAutomator2] Deleting UiAutomator2 server session
+2023-03-28 09:13:15:656 [WD Proxy] Matched '/' to command name 'deleteSession'
+2023-03-28 09:13:15:657 [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:5747/wd/hub/session/722d503d-c605-45f3-9f2a-a8c289d4deed] with no body
+2023-03-28 09:13:15:659 [Instrumentation] The process has exited with code 3221225786
+2023-03-28 09:13:15:665 [WD Proxy] Got response with status 200: {"sessionId":"722d503d-c605-45f3-9f2a-a8c289d4deed","value":null}
+2023-03-28 09:13:15:666 [UiAutomator2] Resetting IME to 'io.appium.settings/.UnicodeIME'
+2023-03-28 09:13:15:666 [ADB] Running 'E:\program\android_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1:62001 shell ime set io.appium.settings/.UnicodeIME'
+2023-03-28 09:13:16:032 [HTTP] --> DELETE /wd/hub/session/4750b607-d45a-4795-a172-6af2baf03a22
+2023-03-28 09:13:16:032 [HTTP] {}
+2023-03-28 09:13:16:075 [W3C (4750b607)] Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+2023-03-28 09:13:16:075 [W3C (4750b607)]     at asyncHandler (C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:243:15)
+2023-03-28 09:13:16:075 [W3C (4750b607)]     at C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:423:15
+2023-03-28 09:13:16:076 [W3C (4750b607)]     at Layer.handle [as handle_request] (C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2023-03-28 09:13:16:076 [W3C (4750b607)]     at next (C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\route.js:137:13)
+2023-03-28 09:13:16:076 [W3C (4750b607)]     at Route.dispatch (C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\route.js:112:3)
+2023-03-28 09:13:16:076 [W3C (4750b607)]     at Layer.handle [as handle_request] (C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2023-03-28 09:13:16:077 [W3C (4750b607)]     at C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:281:22
+2023-03-28 09:13:16:077 [W3C (4750b607)]     at param (C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:354:14)
+2023-03-28 09:13:16:077 [W3C (4750b607)]     at param (C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:365:14)
+2023-03-28 09:13:16:077 [W3C (4750b607)]     at Function.process_params (C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:410:3)
+2023-03-28 09:13:16:077 [W3C (4750b607)]     at next (C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:275:10)
+2023-03-28 09:13:16:078 [W3C (4750b607)]     at logger (C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\morgan\index.js:144:5)
+2023-03-28 09:13:16:078 [W3C (4750b607)]     at Layer.handle [as handle_request] (C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\layer.js:95:5)
+2023-03-28 09:13:16:078 [W3C (4750b607)]     at trim_prefix (C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:317:13)
+2023-03-28 09:13:16:078 [W3C (4750b607)]     at C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:284:7
+2023-03-28 09:13:16:078 [W3C (4750b607)]     at Function.process_params (C:\Users\ChenHuaishu\AppData\Roaming\npm\node_modules\appium\node_modules\express\lib\router\index.js:335:12)
+2023-03-28 09:13:16:080 [HTTP] <-- DELETE /wd/hub/session/4750b607-d45a-4795-a172-6af2baf03a22 404 48 ms - 2492
+2023-03-28 09:13:16:081 [HTTP] 
+2023-03-28 09:13:16:167 [Logcat] Logcat terminated with code 3221225786, signal null
